@@ -1,7 +1,13 @@
-let jumbotron1 = document.querySelector("#jumbotron1");
-let jumbotron2 = document.querySelector("#jumbotron2");
 
-// setInterval(function() {
-//     jumbotron1.style.display = "none";
-//     jumbotron2.style.display = "none";
-// }, 3000)
+$('#myCarousel').carousel({
+  interval: 5000
+})
+
+//document.getElementById('carousel').addEventListener('slide.bs.carousel', function () {
+    // console.log('slide fired')
+// })
+
+
+// $('#carouselExample').on('slide.bs.carousel', function () {
+//     console.log('slide next clicked')
+// })
