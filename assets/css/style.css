@@ -1,0 +1,19 @@
+.back-image-1 {
+    background: url('../../images/wild-west.jpg');
+    background-size: cover;
+}
+
+.back-image-2 {
+    background: url('../../images/web-developer.jpg');
+    background-size: cover;
+}
+
+.rotated {
+    transform: rotate(10deg);
+    /*background-color: pink;
+    */-webkit-transform: rotate(15deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+}
