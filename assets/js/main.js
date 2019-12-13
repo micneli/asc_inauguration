@@ -3,7 +3,8 @@ $('#myCarousel').carousel({
   interval: 5000
 })
 
-let header = document.querySelector("nav h3");
+let navbar = document.querySelector(".navbar");
+let navbarText = document.querySelector(".navbar-text");
 
 //*************** these are indexes of previous and next slides, respectively *************/
 // $('.carousel').on('slide.bs.carousel',function(e){
@@ -18,19 +19,20 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide (ev) {
 
   switch (id) {
     case 0:
-        header.textContent = "<div>Vision 68";
+        // navbarTextStart.classList.add("#navbar-text-start");
+        navbarText.innerHTML = "<h3>WANTED: ACCESS CODE SCHOOL</h3>";
       break;
 
     case 1:
-        header.textContent = "style 2";
+        navbarText.innerHTML = "<h3>WANTED: ILIYAS, 22 ANS, WEB DEVELOPPEUR</h3>";
       break;
 
     case 2:
-      header.textContent = "style 3";
+        navbarText.innerHTML = "<h3>WANTED: JOHANNA, 22 ANS, WEB DEVELOPPEUR </h3>";
       break;
 
     default:
-        header.textContent = " ";
+        navbarText.textContent = "";
   }
 })
 

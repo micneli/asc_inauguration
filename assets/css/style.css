@@ -20,3 +20,6 @@
     -webkit-transform: rotate(10deg);
 }
 
+.textCenter {
+    text-align: center;
+}
