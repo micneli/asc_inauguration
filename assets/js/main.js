@@ -31,6 +31,10 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide (ev) {
         navbarText.innerHTML = "<h3>WANTED: JOHANNA, 22 ANS, WEB DEVELOPPEUR </h3>";
       break;
 
+    case 3:
+      navbarText.innerHTML = "<h3>WANTED: NEBO, 48 ANS, WEB DEVELOPPEUR </h3>";
+    break;
+
     default:
         navbarText.textContent = "";
   }
