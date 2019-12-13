@@ -1,6 +1,6 @@
 
 $('#myCarousel').carousel({
-  interval: 10000
+  interval: 5000
 })
 
 let navbar = document.querySelector(".navbar");
