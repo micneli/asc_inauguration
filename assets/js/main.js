@@ -5,3 +5,7 @@ let jumbotron2 = document.querySelector("#jumbotron2");
 //     jumbotron1.style.display = "none";
 //     jumbotron2.style.display = "none";
 // }, 3000)
+
+$('#myCarousel').carousel({
+  interval: 5000
+})
