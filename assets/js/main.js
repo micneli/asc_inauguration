@@ -4,7 +4,8 @@ let students = [
     age: 38,
     experience: "C++ programmation",
     presentation: "Lorem ipsum 1",
-    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"]
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/anthony-pdg.png"
   },
 
   {
@@ -12,7 +13,8 @@ let students = [
     age: 52,
     experience: "JavaScript programmation",
     presentation: "Lorem ipsum 2",
-    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"]
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/beatrice-pdg.png"
   },
 
   {
@@ -20,7 +22,8 @@ let students = [
     age: 20,
     experience: "Réseaux informatiques",
     presentation: "Lorem ipsum 3",
-    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"]
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/etienne-pdg.png"
   }
 ];
 
@@ -55,64 +58,90 @@ let navbarText = document.querySelector(".navbar-text");
 //     console.log(slideFrom+' => '+slideTo);
 // });
 
-$('#myCarousel').on('slide.bs.carousel', function onSlide (ev) {
+const container = document.getElementById("teamRow");
+
+students.forEach(result => {
+  // Construct card content
+  const content = `
+  <div class="card mr-4 mb-3 rotated-card-cw text-dark bg-primary" style="max-width: 350px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="${result.img}" alt="name">
+      </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">${result.name}</h5>
+            <p class="card-text">
+            ${result.presentation}
+            </p>
+          </div>
+        </div>
+    </div>
+  </div>
+    `;
+
+  // Append newyly created card element to the container
+  container.innerHTML += content;
+});
+
+$('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
   // var id = ev.relatedTarget.id; // this one does not function
   let id = $(ev.relatedTarget).index();
 
   switch (id) {
     case 0:
-        navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>ACCESS CODE SCHOOL</span></h2>";
+      navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>ACCESS CODE SCHOOL</span></h2>";
       break;
 
     case 1:
-        navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>ANTHONY</span></h2>";
-        name1[0].textContent = "Nom et prenom : " + students[0].name;
-        age1[0].textContent = "Age : " + students[0].age;
-        presentation.textContent = students[0].presentation;
-        skill1[0].textContent = students[0].softSkills[0];
-        skill2[0].textContent = students[0].softSkills[1];
-        skill3[0].textContent = students[0].softSkills[2];
-        skill4[0].textContent = students[0].softSkills[3];
-        skill5[0].textContent = students[0].softSkills[4];
-        experience1[0].textContent = students[0].experience;
-        name2[0].textContent = students[0].name;
-        age2[0].textContent = students[0].age;
-        experience2[0].textContent = students[0].experience;
+      navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>ANTHONY</span></h2>";
+      name1[0].textContent = "Nom et prenom : " + students[0].name;
+      age1[0].textContent = "Age : " + students[0].age;
+      presentation.textContent = students[0].presentation;
+      skill1[0].textContent = students[0].softSkills[0];
+      skill2[0].textContent = students[0].softSkills[1];
+      skill3[0].textContent = students[0].softSkills[2];
+      skill4[0].textContent = students[0].softSkills[3];
+      skill5[0].textContent = students[0].softSkills[4];
+      experience1[0].textContent = students[0].experience;
+      name2[0].textContent = students[0].name;
+      age2[0].textContent = students[0].age;
+      experience2[0].textContent = students[0].experience;
       break;
 
     case 2:
-        navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>BEATRICE</span></h2>";
-        name1[1].textContent = students[1].name;
-        age1[1].textContent = students[1].age;
-        experience1[1].textContent = students[1].experience;
-        presentation.textContent = students[1].presentation;
-        skill1[1].textContent = students[1].softSkills[0];
-        skill2[1].textContent = students[1].softSkills[1];
-        skill3[1].textContent = students[1].softSkills[2];
-        skill4[1].textContent = students[1].softSkills[3];
-        skill5[1].textContent = students[1].softSkills[4];
-        name2[1].textContent = students[1].name;
-        age2[1].textContent = students[1].age;
-        experience2[1].textContent = students[1].experience;
+      navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>BEATRICE</span></h2>";
+      name1[1].textContent = students[1].name;
+      age1[1].textContent = students[1].age;
+      experience1[1].textContent = students[1].experience;
+      presentation.textContent = students[1].presentation;
+      skill1[1].textContent = students[1].softSkills[0];
+      skill2[1].textContent = students[1].softSkills[1];
+      skill3[1].textContent = students[1].softSkills[2];
+      skill4[1].textContent = students[1].softSkills[3];
+      skill5[1].textContent = students[1].softSkills[4];
+      name2[1].textContent = students[1].name;
+      age2[1].textContent = students[1].age;
+      experience2[1].textContent = students[1].experience;
       break;
 
     case 3:
-        navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>ETIENNE</span></h2>";
-        name1[2].textContent = students[2].name;
-        age1[2].textContent = students[2].age;
-        experience1[2].textContent = students[2].experience;
-        presentation.textContent = students[2].presentation;
-        skill1[2].textContent = students[2].softSkills[0];
-        skill2[2].textContent = students[2].softSkills[1];
-        skill3[2].textContent = students[2].softSkills[2];
-        skill4[2].textContent = students[2].softSkills[3];
-        skill5[2].textContent = students[2].softSkills[4];
-        name2[2].textContent = students[2].name;
-        age2[2].textContent = students[2].age;
-        experience2[2].textContent = students[2].experience;
+      navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>ETIENNE</span></h2>";
+      name1[2].textContent = students[2].name;
+      age1[2].textContent = students[2].age;
+      experience1[2].textContent = students[2].experience;
+      presentation.textContent = students[2].presentation;
+      skill1[2].textContent = students[2].softSkills[0];
+      skill2[2].textContent = students[2].softSkills[1];
+      skill3[2].textContent = students[2].softSkills[2];
+      skill4[2].textContent = students[2].softSkills[3];
+      skill5[2].textContent = students[2].softSkills[4];
+      name2[2].textContent = students[2].name;
+      age2[2].textContent = students[2].age;
+      experience2[2].textContent = students[2].experience;
       break;
 
     default:
-        navbarText.textContent = "";
+      navbarText.textContent = "";
   }
 })
