@@ -1,6 +1,6 @@
 let students = [
   {
-    name: "Anthony Montmiraill",
+    name: "Anthony Montmirail",
     age: 38,
     experience: "C++ programmation",
     presentation: "Lorem ipsum 1",
