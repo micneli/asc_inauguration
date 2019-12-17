@@ -128,8 +128,8 @@ let students = [
     presentation: "Work hard and have fun!!",
     passion: "Sports, voyage, passer le temps avec la famille et les amis",
     softSkills: ["Travailleur", "Précis", "Fiable", "Sérieux", "Raisonnable"],
-    devise: "",
-    passionFun: ""
+    devise: "Mieux vaut prévenir que guérir",
+    passionFun: "Rechercher le monde de nature"
   },
   {
     name: "Victor Lapostolle",
@@ -430,6 +430,20 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           surname[16].textContent = students[16].surname;
           devise[16].textContent = students[16].devise;
           passionFun[16].textContent = students[16].passionFun;
+          break;
+
+    case 18:
+          age1[17].textContent = students[17].age;
+          passion1[17].textContent = students[17].passion;
+          presentation1[17].textContent = students[17].presentation;
+          skill1[17].textContent = students[17].softSkills[0];
+          skill2[17].textContent = students[17].softSkills[1];
+          skill3[17].textContent = students[17].softSkills[2];
+          skill4[17].textContent = students[17].softSkills[3];
+          skill5[17].textContent = students[17].softSkills[4];
+          surname[17].textContent = students[17].surname;
+          devise[17].textContent = students[17].devise;
+          passionFun[17].textContent = students[17].passionFun;
           break;
     
 
