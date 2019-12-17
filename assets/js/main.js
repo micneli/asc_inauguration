@@ -26,8 +26,8 @@ let students = [
     surname: "Syrgo",
     age: 20,
     presentation: "Toujours conserver sa meilleure carte à porté de main",
-    passion: " ",
-    softSkills: ["Esprit critique", "Coopération", "Curiosité", "Créativité", "Ninjutsu"],
+    passion: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon au quotidien, j’aime également le monde de la programmation informatique et développe des apps/webapps pour le jeu de rôles",
+    softSkills: ["Esprit critique", "Coopération", "Curiosité", "VIsion", "Présence "],
     devise: " ",
     passionFun: " "
   },
@@ -48,18 +48,18 @@ let students = [
     presentation: "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
     passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
     softSkills: ["L’empathie", "Gestion du temps", "Créativite", "L'esprit d’entreprendre", "Curiosité"],
-    devise: " ",
-    passionFun: " "
+    devise: "#warrior",
+    passionFun: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!"
   },
   {
     name: "Jérôme Rinner",
-    surname: "Monsieur Fruit",
+    surname: "Le crieur",
     age: 20,
     presentation: "La créativité est contagieuse, faites la tourner !",
     passion: "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature",
     softSkills: ["Adaptabilité", "Esprit d'équipe", "Rigueur", "Passion", "Ecoute"],
-    devise: " ",
-    passionFun: " "
+    devise: "Du bout de mon canon la liberté tu trouvera",
+    passionFun: "Répandre la bonne parole avec mon six coups"
   },
   {
     name: "Joan Sor",
@@ -68,8 +68,8 @@ let students = [
     presentation: "Tout métier qui ne fait pas oublier le travail est un esclavage",
     passion: "while (travaille === plaisir et passion){console.log(“just do it”)};",
     softSkills: ["Motivation", "Créativité", "Ténacité", "Détermination", "Esprit d’équipe"],
-    devise: " ",
-    passionFun: " "
+    devise: "Chuck Norris ne ment jamais, c'est la vérité qui se trompe",
+    passionFun: "Tricher au Uno !"
   },
   {
     name: "Johanna Galli",
@@ -78,8 +78,8 @@ let students = [
     presentation: "Ce ne sont pas nos aptitudes qui montrent ce que nous sommes, ce sont nos choix",
     passion: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis",
     softSkills: ["Résolution des problèmes", "Gestion du temps", "Sens du collectif", "Créativité", "Empathie "],
-    devise: " ",
-    passionFun: " "
+    devise: "Sans la musique, la vie serait une erreur",
+    passionFun: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis"
   },
   {
     name: "Julie Moulot",
@@ -108,8 +108,8 @@ let students = [
     presentation: "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse",
     passion: "Passionnée par la culture Japonaise, je suis également une grande amatrice de lecture en tout genre. J’aime beaucoup jouer aux jeux vidéos et dessiner. Niveau pro, je souhaiterai développer mes compétences afin de pouvoir travailler dans une entreprise ou une agence en tant que développeur web, et gagner en expérience pour grimper les échelons",
     softSkills: ["Empathie", "Créativité", "Motivation", "Communication", "Confiance"],
-    devise: " ",
-    passionFun: " "
+    devise: "Konnichiwa minna-san !",
+    passionFun: "Les jeux vidéos, la culture japonaise, les bouquins, le dessin et le chant !"
   },
   {
     name: "Messaouda Benchikh",
@@ -118,8 +118,8 @@ let students = [
     presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser. Nous sommes présents pour trouver des solutions et pour vous faciliter la vie",
     passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères.",
     softSkills: ["L’innovation", "Travail en groupe", "Communication", "Motivation", "Productivité"],
-    devise: " ",
-    passionFun: " "
+    devise: "La souffrance génère la créativité, courage toi même,  soit tu gagnes. Sois-tu apprends",
+    passionFun: "Résoudre les problèmes mathématiques, respect du temps et du délai"
   },
   {
     name: "Nebojsa Mihaljevic",
@@ -128,8 +128,8 @@ let students = [
     presentation: "Work hard and have fun!!",
     passion: "Sports, voyage, passer le temps avec la famille et les amis",
     softSkills: ["Travailleur", "Précis", "Fiable", "Sérieux", "Raisonnable"],
-    devise: " ",
-    passionFun: " "
+    devise: "",
+    passionFun: ""
   },
   {
     name: "Victor Lapostolle",
@@ -138,8 +138,8 @@ let students = [
     presentation: "L’ignorant affirme, le savant doute, le sage réfléchit",
     passion: "Le web et les BD",
     softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Patience"],
-    devise: " ",
-    passionFun: " "
+    devise: "I’m Batman but less rich",
+    passionFun: "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN"
   },
   {
     name: "Thomas Loegell",
@@ -148,7 +148,7 @@ let students = [
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
     softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
-    devise: " ",
+    devise: "",
     passionFun: " "
   }
 ];
@@ -209,8 +209,6 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       break;
 
     case 2:
-      // navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>BEATRICE</span></h2>";
-      // name1[1].textContent = students[1].name;
       age1[1].textContent = students[1].age;
       passion1[1].textContent = students[1].passion;
       presentation1[1].textContent = students[1].presentation;
@@ -225,8 +223,6 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       break;
 
     case 3:
-      // navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>ETIENNE</span></h2>";
-      // name1[2].textContent = students[2].name;
       age1[2].textContent = students[2].age;
       passion1[2].textContent = students[2].passion;
       presentation1[2].textContent = students[2].presentation;
@@ -239,6 +235,203 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       devise[2].textContent = students[2].devise;
       passionFun[2].textContent = students[2].passionFun;
       break;
+
+    case 4:
+        age1[3].textContent = students[3].age;
+        passion1[3].textContent = students[3].passion;
+        presentation1[3].textContent = students[3].presentation;
+        skill1[3].textContent = students[3].softSkills[0];
+        skill2[3].textContent = students[3].softSkills[1];
+        skill3[3].textContent = students[3].softSkills[2];
+        skill4[3].textContent = students[3].softSkills[3];
+        skill5[3].textContent = students[3].softSkills[4];
+        surname[3].textContent = students[3].surname;
+        devise[3].textContent = students[3].devise;
+        passionFun[3].textContent = students[3].passionFun;
+        break;
+
+    case 5:
+        age1[4].textContent = students[4].age;
+        passion1[4].textContent = students[4].passion;
+        presentation1[4].textContent = students[4].presentation;
+        skill1[4].textContent = students[4].softSkills[0];
+        skill2[4].textContent = students[4].softSkills[1];
+        skill3[4].textContent = students[4].softSkills[2];
+        skill4[4].textContent = students[4].softSkills[3];
+        skill5[4].textContent = students[4].softSkills[4];
+        surname[4].textContent = students[4].surname;
+        devise[4].textContent = students[4].devise;
+        passionFun[4].textContent = students[4].passionFun;
+        break;
+
+    case 6:
+          age1[5].textContent = students[5].age;
+          passion1[5].textContent = students[5].passion;
+          presentation1[5].textContent = students[5].presentation;
+          skill1[5].textContent = students[5].softSkills[0];
+          skill2[5].textContent = students[5].softSkills[1];
+          skill3[5].textContent = students[5].softSkills[2];
+          skill4[5].textContent = students[5].softSkills[3];
+          skill5[5].textContent = students[5].softSkills[4];
+          surname[5].textContent = students[5].surname;
+          devise[5].textContent = students[5].devise;
+          passionFun[5].textContent = students[5].passionFun;
+          break;
+
+    case 7:
+          age1[6].textContent = students[6].age;
+          passion1[6].textContent = students[6].passion;
+          presentation1[6].textContent = students[6].presentation;
+          skill1[6].textContent = students[6].softSkills[0];
+          skill2[6].textContent = students[6].softSkills[1];
+          skill3[6].textContent = students[6].softSkills[2];
+          skill4[6].textContent = students[6].softSkills[3];
+          skill5[6].textContent = students[6].softSkills[4];
+          surname[6].textContent = students[6].surname;
+          devise[6].textContent = students[6].devise;
+          passionFun[6].textContent = students[6].passionFun;
+          break;
+
+    case 8:
+          age1[7].textContent = students[7].age;
+          passion1[7].textContent = students[7].passion;
+          presentation1[7].textContent = students[7].presentation;
+          skill1[7].textContent = students[7].softSkills[0];
+          skill2[7].textContent = students[7].softSkills[1];
+          skill3[7].textContent = students[7].softSkills[2];
+          skill4[7].textContent = students[7].softSkills[3];
+          skill5[7].textContent = students[7].softSkills[4];
+          surname[7].textContent = students[7].surname;
+          devise[7].textContent = students[7].devise;
+          passionFun[7].textContent = students[7].passionFun;
+          break;
+
+    case 9:
+          age1[8].textContent = students[8].age;
+          passion1[8].textContent = students[8].passion;
+          presentation1[8].textContent = students[8].presentation;
+          skill1[8].textContent = students[8].softSkills[0];
+          skill2[8].textContent = students[8].softSkills[1];
+          skill3[8].textContent = students[8].softSkills[2];
+          skill4[8].textContent = students[8].softSkills[3];
+          skill5[8].textContent = students[8].softSkills[4];
+          surname[8].textContent = students[8].surname;
+          devise[8].textContent = students[8].devise;
+          passionFun[8].textContent = students[8].passionFun;
+          break;
+
+    case 10:
+          age1[9].textContent = students[9].age;
+          passion1[9].textContent = students[9].passion;
+          presentation1[9].textContent = students[9].presentation;
+          skill1[9].textContent = students[9].softSkills[0];
+          skill2[9].textContent = students[9].softSkills[1];
+          skill3[9].textContent = students[9].softSkills[2];
+          skill4[9].textContent = students[9].softSkills[3];
+          skill5[9].textContent = students[9].softSkills[4];
+          surname[9].textContent = students[9].surname;
+          devise[9].textContent = students[9].devise;
+          passionFun[9].textContent = students[9].passionFun;
+          break;
+
+    case 11:
+          age1[10].textContent = students[10].age;
+          passion1[10].textContent = students[10].passion;
+          presentation1[10].textContent = students[10].presentation;
+          skill1[10].textContent = students[10].softSkills[0];
+          skill2[10].textContent = students[10].softSkills[1];
+          skill3[10].textContent = students[10].softSkills[2];
+          skill4[10].textContent = students[10].softSkills[3];
+          skill5[10].textContent = students[10].softSkills[4];
+          surname[10].textContent = students[10].surname;
+          devise[10].textContent = students[10].devise;
+          passionFun[10].textContent = students[10].passionFun;
+          break;
+
+    case 12:
+          age1[11].textContent = students[11].age;
+          passion1[11].textContent = students[11].passion;
+          presentation1[11].textContent = students[11].presentation;
+          skill1[11].textContent = students[11].softSkills[0];
+          skill2[11].textContent = students[11].softSkills[1];
+          skill3[11].textContent = students[11].softSkills[2];
+          skill4[11].textContent = students[11].softSkills[3];
+          skill5[11].textContent = students[11].softSkills[4];
+          surname[11].textContent = students[11].surname;
+          devise[11].textContent = students[11].devise;
+          passionFun[11].textContent = students[11].passionFun;
+          break;
+
+    case 13:
+          age1[12].textContent = students[12].age;
+          passion1[12].textContent = students[12].passion;
+          presentation1[12].textContent = students[12].presentation;
+          skill1[12].textContent = students[12].softSkills[0];
+          skill2[12].textContent = students[12].softSkills[1];
+          skill3[12].textContent = students[12].softSkills[2];
+          skill4[12].textContent = students[12].softSkills[3];
+          skill5[12].textContent = students[12].softSkills[4];
+          surname[12].textContent = students[12].surname;
+          devise[12].textContent = students[12].devise;
+          passionFun[12].textContent = students[12].passionFun;
+          break;
+
+    case 14:
+          age1[13].textContent = students[13].age;
+          passion1[13].textContent = students[13].passion;
+          presentation1[13].textContent = students[13].presentation;
+          skill1[13].textContent = students[13].softSkills[0];
+          skill2[13].textContent = students[13].softSkills[1];
+          skill3[13].textContent = students[13].softSkills[2];
+          skill4[13].textContent = students[13].softSkills[3];
+          skill5[13].textContent = students[13].softSkills[4];
+          surname[13].textContent = students[13].surname;
+          devise[13].textContent = students[13].devise;
+          passionFun[13].textContent = students[13].passionFun;
+          break;
+
+    case 15:
+          age1[14].textContent = students[14].age;
+          passion1[14].textContent = students[14].passion;
+          presentation1[14].textContent = students[14].presentation;
+          skill1[14].textContent = students[14].softSkills[0];
+          skill2[14].textContent = students[14].softSkills[1];
+          skill3[14].textContent = students[14].softSkills[2];
+          skill4[14].textContent = students[14].softSkills[3];
+          skill5[14].textContent = students[14].softSkills[4];
+          surname[14].textContent = students[14].surname;
+          devise[14].textContent = students[14].devise;
+          passionFun[14].textContent = students[14].passionFun;
+          break;
+
+    case 16:
+          age1[15].textContent = students[15].age;
+          passion1[15].textContent = students[15].passion;
+          presentation1[15].textContent = students[15].presentation;
+          skill1[15].textContent = students[15].softSkills[0];
+          skill2[15].textContent = students[15].softSkills[1];
+          skill3[15].textContent = students[15].softSkills[2];
+          skill4[15].textContent = students[15].softSkills[3];
+          skill5[15].textContent = students[15].softSkills[4];
+          surname[15].textContent = students[15].surname;
+          devise[15].textContent = students[15].devise;
+          passionFun[15].textContent = students[15].passionFun;
+          break;
+
+    case 17:
+          age1[16].textContent = students[16].age;
+          passion1[16].textContent = students[16].passion;
+          presentation1[16].textContent = students[16].presentation;
+          skill1[16].textContent = students[16].softSkills[0];
+          skill2[16].textContent = students[16].softSkills[1];
+          skill3[16].textContent = students[16].softSkills[2];
+          skill4[16].textContent = students[16].softSkills[3];
+          skill5[16].textContent = students[16].softSkills[4];
+          surname[16].textContent = students[16].surname;
+          devise[16].textContent = students[16].devise;
+          passionFun[16].textContent = students[16].passionFun;
+          break;
+    
 
     default:
       navbarText.textContent = "";
