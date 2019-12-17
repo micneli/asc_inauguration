@@ -24,8 +24,8 @@ let students = [
   {
     name: "Etienne Schmitt",
     surname: "Syrgo",
-    age: 20,
-    presentation: "Toujours conserver sa meilleure carte à porté de main",
+    age: 22,
+    presentation: "La programmation est simple mais il faut être un génie pour comprendre sa simplicité ",
     passion: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon au quotidien, j’aime également le monde de la programmation informatique et développe des apps/webapps pour le jeu de rôles",
     softSkills: ["Esprit critique", "Coopération", "Curiosité", "VIsion", "Présence "],
     devise: "Toujours conserver sa meilleure carte à porté de main",
@@ -34,7 +34,7 @@ let students = [
   {
     name: "Ilias Imouli",
     surname: "Ili",
-    age: 20,
+    age: 22,
     presentation: "Go hard or go home",
     passion: "Sport et voyage",
     softSkills: ["Autonome ", "Curieux ", "Créativite", "Sportif", "Organisé"],
@@ -44,7 +44,7 @@ let students = [
   {
     name: "Isabelle Hennes",
     surname: "Isa ou Zabou",
-    age: 20,
+    age: 32,
     presentation: "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
     passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
     softSkills: ["L’empathie", "Gestion du temps", "Créativite", "L'esprit d’entreprendre", "Curiosité"],
@@ -58,14 +58,14 @@ let students = [
     age: 40,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
-    softSkills: ["Empathie", "L’esprit d’équipe", "Flexibilité ", "Curiosité", "L’esprit d’entreprendre"],
+    softSkills: ["Empathie", "L’esprit d’équipe", "Flexibilité ", "Curiosité", "capacité d'écoute"],
     devise: " ",
     passionFun: " "
   },
   {
     name: "Jérôme Rinner",
     surname: "Le crieur",
-    age: 20,
+    age:37 ,
     presentation: "La créativité est contagieuse, faites la tourner !",
     passion: "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature",
     softSkills: ["Adaptabilité", "Esprit d'équipe", "Rigueur", "Passion", "Ecoute"],
@@ -98,7 +98,7 @@ let students = [
     age: 23,
     presentation: "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
     passion: "Fan de Tagada Jones et Ultra Vomit",
-    softSkills: ["Aime observer", "écouter", "trouver des solutions", "Créativité", "Empathie"],
+    softSkills: ["Aime observer", "écouter et trouver des solutions"],
     devise: " ",
     passionFun: " "
   },
@@ -127,10 +127,10 @@ let students = [
     surname: "Messa le géant dormant",
     age: 37,
     presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser. Nous sommes présents pour trouver des solutions et pour vous faciliter la vie",
-    passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères.",
+    passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères, soin des animaux, la nature ",
     softSkills: ["L’innovation", "Travail en groupe", "Communication", "Motivation", "Productivité"],
     devise: "La souffrance génère la créativité, courage toi même,  soit tu gagnes. Sois-tu apprends",
-    passionFun: "Résoudre les problèmes mathématiques, respect du temps et du délai"
+    passionFun: "Parler aux chats, j'aime beaucoup le panda, j'adore les aventures de Tintin"
   },
   {
     name: "Nebojsa Mihaljevic",
@@ -155,12 +155,12 @@ let students = [
   {
     name: "Thomas Loegell",
     surname: "Jamy",
-    age: 25,
+    age: 33,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
     softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
-    devise: "",
-    passionFun: " "
+    devise: "En route Marcel",
+    passionFun: "Les sports de glisses "
   },
   {
     name: "Nabil",
@@ -192,7 +192,7 @@ let skill5 = document.getElementsByClassName("skill5");
 
 
 $('#myCarousel').carousel({
-  interval: 5000
+  interval: 20000
 })
 
 // $('.carousel').carousel({
