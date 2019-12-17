@@ -1,10 +1,15 @@
+body {
+    background-image: url('../../images/background.jpg');
+    background-size: cover;
+}
+
 .back-image-1 {
-    background: url('../../images/wild-west.jpg');
+    background: url('../../images/back-pro.jpg');
     background-size: cover;
 }
 
 .back-image-2 {
-    background: url('../../images/web-developer.jpg');
+    background: url('../../images/back-fun.jpg');
     background-size: cover;
 }
 
