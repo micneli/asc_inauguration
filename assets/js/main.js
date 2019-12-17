@@ -58,31 +58,31 @@ let navbarText = document.querySelector(".navbar-text");
 //     console.log(slideFrom+' => '+slideTo);
 // });
 
-const container = document.getElementById("teamRow");
+// const container = document.getElementById("teamRow");
 
-students.forEach(result => {
-  // Construct card content
-  const content = `
-  <div class="card mr-4 mb-3 rotated-card-cw text-dark bg-primary" style="max-width: 350px;">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="${result.img}" alt="name">
-      </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">${result.name}</h5>
-            <p class="card-text">
-            ${result.presentation}
-            </p>
-          </div>
-        </div>
-    </div>
-  </div>
-    `;
+// students.forEach(result => {
+//   // Construct card content
+//   const content = `
+//   <div class="card mr-4 mb-3 rotated-card-cw text-dark bg-primary" style="max-width: 350px;">
+//     <div class="row no-gutters">
+//       <div class="col-md-4">
+//         <img src="${result.img}" alt="name">
+//       </div>
+//         <div class="col-md-8">
+//           <div class="card-body">
+//             <h5 class="card-title">${result.name}</h5>
+//             <p class="card-text">
+//             ${result.presentation}
+//             </p>
+//           </div>
+//         </div>
+//     </div>
+//   </div>
+//     `;
 
-  // Append newyly created card element to the container
-  container.innerHTML += content;
-});
+//   // Append newyly created card element to the container
+//   container.innerHTML += content;
+// });
 
 $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
   // var id = ev.relatedTarget.id; // this one does not function
