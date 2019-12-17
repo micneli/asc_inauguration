@@ -51,6 +51,17 @@ let students = [
     devise: "#warrior",
     passionFun: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!"
   },
+
+  {
+    name: "Irina Pintchuk",
+    surname: "Irina",
+    age: 40,
+    presentation: "Les rêves donnent l’envie d’être à demain",
+    passion: "Passionné par les plantes dont je ne connais même pas les noms !",
+    softSkills: ["Empathie", "L’esprit d’équipe", "Flexibilité ", "Curiosité", "L’esprit d’entreprendre"],
+    devise: " ",
+    passionFun: " "
+  },
   {
     name: "Jérôme Rinner",
     surname: "Le crieur",
@@ -153,16 +164,6 @@ let students = [
   },
   {
     name: "Nabil",
-    surname: "Jamy",
-    age: 25,
-    presentation: "Les rêves donnent l’envie d’être à demain",
-    passion: "Passionné par les plantes dont je ne connais même pas les noms !",
-    softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
-    devise: " ",
-    passionFun: " "
-  },
-  {
-    name: "Irina",
     surname: "Jamy",
     age: 25,
     presentation: "Les rêves donnent l’envie d’être à demain",
