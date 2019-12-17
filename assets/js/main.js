@@ -28,8 +28,8 @@ let students = [
     presentation: "Toujours conserver sa meilleure carte à porté de main",
     passion: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon au quotidien, j’aime également le monde de la programmation informatique et développe des apps/webapps pour le jeu de rôles",
     softSkills: ["Esprit critique", "Coopération", "Curiosité", "VIsion", "Présence "],
-    devise: " ",
-    passionFun: " "
+    devise: "Toujours conserver sa meilleure carte à porté de main",
+    passionFun: "Jeux de rôles/cartes/vidéos et UNIX"
   },
   {
     name: "Ilias Imouli",
