@@ -42,17 +42,6 @@ let students = [
     passionFun: " "
   },
   {
-    name: "Isabelle Hennes",
-    surname: "Isa ou Zabou",
-    age: 32,
-    presentation: "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
-    passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
-    softSkills: ["L’empathie", "Gestion du temps", "Créativite", "L'esprit d’entreprendre", "Curiosité"],
-    devise: "#warrior",
-    passionFun: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!"
-  },
-
-  {
     name: "Irina Pintchuk",
     surname: "Irina",
     age: 40,
@@ -61,6 +50,16 @@ let students = [
     softSkills: ["Empathie", "L’esprit d’équipe", "Flexibilité ", "Curiosité", "capacité d'écoute"],
     devise: " ",
     passionFun: " "
+  },
+  {
+    name: "Isabelle Hennes",
+    surname: "Isa ou Zabou",
+    age: 32,
+    presentation: "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
+    passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
+    softSkills: ["L’empathie", "Gestion du temps", "Créativite", "L'esprit d’entreprendre", "Curiosité"],
+    devise: "#warrior",
+    passionFun: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!"
   },
   {
     name: "Jérôme Rinner",
@@ -75,7 +74,7 @@ let students = [
   {
     name: "Joan Sor",
     surname: "Jojo",
-    age: 20,
+    age: 34,
     presentation: "Tout métier qui ne fait pas oublier le travail est un esclavage",
     passion: "while (travaille === plaisir et passion){console.log(“just do it”)};",
     softSkills: ["Motivation", "Créativité", "Ténacité", "Détermination", "Esprit d’équipe"],
@@ -192,12 +191,8 @@ let skill5 = document.getElementsByClassName("skill5");
 
 
 $('#myCarousel').carousel({
-  interval: 20000
+  interval: 5000
 })
-
-// $('.carousel').carousel({
-//   pause: "false"
-// })
 
 let navbar = document.querySelector(".navbar");
 let navbarText = document.querySelector(".navbar-text");
