@@ -24,6 +24,58 @@ let students = [
     presentation: "Lorem ipsum 3",
     softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
     img: "images/page_initial/etienne-pdg.png"
+  },
+  {
+    name: "Anthony Montmirail",
+    age: 38,
+    experience: "C++ programmation",
+    presentation: "Lorem ipsum 1",
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/anthony-pdg.png"
+  },
+
+  {
+    name: "Beatrice",
+    age: 52,
+    experience: "JavaScript programmation",
+    presentation: "Lorem ipsum 2",
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/beatrice-pdg.png"
+  },
+
+  {
+    name: "Etienne",
+    age: 20,
+    experience: "Réseaux informatiques",
+    presentation: "Lorem ipsum 3",
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/etienne-pdg.png"
+  },
+  {
+    name: "Anthony Montmirail",
+    age: 38,
+    experience: "C++ programmation",
+    presentation: "Lorem ipsum 1",
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/anthony-pdg.png"
+  },
+
+  {
+    name: "Beatrice",
+    age: 52,
+    experience: "JavaScript programmation",
+    presentation: "Lorem ipsum 2",
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/beatrice-pdg.png"
+  },
+
+  {
+    name: "Etienne",
+    age: 20,
+    experience: "Réseaux informatiques",
+    presentation: "Lorem ipsum 3",
+    softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Ninjutsu"],
+    img: "images/page_initial/etienne-pdg.png"
   }
 ];
 
@@ -45,7 +97,7 @@ let skill5 = document.getElementsByClassName("skill5");
 
 
 $('#myCarousel').carousel({
-  interval: 5000
+  interval: 50000
 })
 
 let navbar = document.querySelector(".navbar");
