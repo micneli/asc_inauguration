@@ -1,7 +1,7 @@
 let students = [
   {
     name: "Anthony Montmirail",
-    surname: "Tony Montana(scarface)",
+    surname: "Tony ",
     age: 42,
     presentation: "Elle gère la fougère",
     passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. 'En mode Apprentissage'",
@@ -123,7 +123,7 @@ let students = [
   },
   {
     name: "Messaouda Benchikh",
-    surname: "Messa le géant dormant",
+    surname: "Messa",
     age: 37,
     presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser. Nous sommes présents pour trouver des solutions et pour vous faciliter la vie",
     passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères, soin des animaux, la nature ",
@@ -153,7 +153,7 @@ let students = [
   },
   {
     name: "Nabil",
-    surname: "Jamy",
+    surname: "Big Neb",
     age: 25,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
@@ -190,7 +190,7 @@ let skill5 = document.getElementsByClassName("skill5");
 
 
 $('#myCarousel').carousel({
-  interval: 10000
+  interval: 5000
 })
 
 let navbar = document.querySelector(".navbar");
