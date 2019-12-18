@@ -1,7 +1,7 @@
 let students = [
   {
     name: "Anthony Montmirail",
-    surname: "Tony Montana(scarface)",
+    surname: "Tony Montana (scarface)",
     age: 42,
     presentation: "Elle gère la fougère",
     passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. 'En mode Apprentissage'",
