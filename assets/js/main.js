@@ -190,7 +190,7 @@ let skill5 = document.getElementsByClassName("skill5");
 
 
 $('#myCarousel').carousel({
-  interval: 50000
+  interval: 5000
 })
 
 let navbar = document.querySelector(".navbar");
