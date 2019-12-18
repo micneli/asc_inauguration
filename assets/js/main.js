@@ -4,7 +4,7 @@ let students = [
     surname: "Tony Montana",
     age: 42,
     presentation: "Elle gère la fougère",
-    passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. 'En mode Apprentissage'",
+    passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. #Mode Apprentissage",
     softSkills: ["Présence", "Vision", "Audace", "Confiance", "Gestion du temps"],
     devise: "Demain nous appartient",
     passionFun: "J'ai découvert la Trotinette et depuis je suis libéré, délivré ... lol"
@@ -213,7 +213,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       skill3[0].textContent = students[0].softSkills[2];
       skill4[0].textContent = students[0].softSkills[3];
       skill5[0].textContent = students[0].softSkills[4];
-      surname[0].textContent = "Surname : " + students[0].surname;
+      surname[0].textContent = "" + students[0].surname;
       devise[0].textContent = "Devise : " + students[0].devise;
       passionFun[0].textContent = "Passion fun : " + students[0].passionFun;
       break;
@@ -227,7 +227,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       skill3[1].textContent = students[1].softSkills[2];
       skill4[1].textContent = students[1].softSkills[3];
       skill5[1].textContent = students[1].softSkills[4];
-      surname[1].textContent = "Surname : " + students[1].surname;
+      surname[1].textContent = "" + students[1].surname;
       devise[1].textContent = "Devise : " + students[1].devise;
       passionFun[1].textContent = "Passion fun : " + students[1].passionFun;
       break;
@@ -241,7 +241,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       skill3[2].textContent = students[2].softSkills[2];
       skill4[2].textContent = students[2].softSkills[3];
       skill5[2].textContent = students[2].softSkills[4];
-      surname[2].textContent = "Surname : " + students[2].surname;
+      surname[2].textContent = "" + students[2].surname;
       devise[2].textContent = "Devise : " + students[2].devise;
       passionFun[2].textContent = "Passion fun : " + students[2].passionFun;
       break;
@@ -255,7 +255,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
         skill3[3].textContent = students[3].softSkills[2];
         skill4[3].textContent = students[3].softSkills[3];
         skill5[3].textContent = students[3].softSkills[4];
-        surname[3].textContent = "Surname : " + students[3].surname;
+        surname[3].textContent = "" + students[3].surname;
         devise[3].textContent = "Devise : " + students[3].devise;
         passionFun[3].textContent = "Passion fun : " + students[3].passionFun;
         break;
@@ -269,7 +269,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
         skill3[4].textContent = students[4].softSkills[2];
         skill4[4].textContent = students[4].softSkills[3];
         skill5[4].textContent = students[4].softSkills[4];
-        surname[4].textContent = "Surname : " + students[4].surname;
+        surname[4].textContent = "" + students[4].surname;
         devise[4].textContent = "Devise : " + students[4].devise;
         passionFun[4].textContent = "Passion fun : " + students[4].passionFun;
         break;
@@ -283,7 +283,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[5].textContent = students[5].softSkills[2];
           skill4[5].textContent = students[5].softSkills[3];
           skill5[5].textContent = students[5].softSkills[4];
-          surname[5].textContent = "Surname : " + students[5].surname;
+          surname[5].textContent = "" + students[5].surname;
           devise[5].textContent = "Devise : " + students[5].devise;
           passionFun[5].textContent = "Passion fun : " + students[5].passionFun;
           break;
@@ -297,7 +297,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[6].textContent = students[6].softSkills[2];
           skill4[6].textContent = students[6].softSkills[3];
           skill5[6].textContent = students[6].softSkills[4];
-          surname[6].textContent = "Surname : " + students[6].surname;
+          surname[6].textContent = "" + students[6].surname;
           devise[6].textContent = "Devise : " + students[6].devise;
           passionFun[6].textContent = "Passion fun : " + students[6].passionFun;
           break;
@@ -311,7 +311,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[7].textContent = students[7].softSkills[2];
           skill4[7].textContent = students[7].softSkills[3];
           skill5[7].textContent = students[7].softSkills[4];
-          surname[7].textContent = "Surname : " + students[7].surname;
+          surname[7].textContent = "" + students[7].surname;
           devise[7].textContent = "Devise : " + students[7].devise;
           passionFun[7].textContent = "Passion fun : " + students[7].passionFun;
           break;
@@ -325,7 +325,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[8].textContent = students[8].softSkills[2];
           skill4[8].textContent = students[8].softSkills[3];
           skill5[8].textContent = students[8].softSkills[4];
-          surname[8].textContent = "Surname : " + students[8].surname;
+          surname[8].textContent = "" + students[8].surname;
           devise[8].textContent = "Devise : " + students[8].devise;
           passionFun[8].textContent = "Passion fun : " + students[8].passionFun;
           break;
@@ -339,7 +339,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[9].textContent = students[9].softSkills[2];
           skill4[9].textContent = students[9].softSkills[3];
           skill5[9].textContent = students[9].softSkills[4];
-          surname[9].textContent = "Surname : " + students[9].surname;
+          surname[9].textContent = "" + students[9].surname;
           devise[9].textContent = "Devise : " + students[9].devise;
           passionFun[9].textContent = "Passion fun : " + students[9].passionFun;
           break;
@@ -353,7 +353,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[10].textContent = students[10].softSkills[2];
           skill4[10].textContent = students[10].softSkills[3];
           skill5[10].textContent = students[10].softSkills[4];
-          surname[10].textContent = "Surname : " + students[10].surname;
+          surname[10].textContent = "" + students[10].surname;
           devise[10].textContent = "Devise : " + students[10].devise;
           passionFun[10].textContent = "Passion fun : " + students[10].passionFun;
           break;
@@ -367,7 +367,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[11].textContent = students[11].softSkills[2];
           skill4[11].textContent = students[11].softSkills[3];
           skill5[11].textContent = students[11].softSkills[4];
-          surname[11].textContent = "Surname : " + students[11].surname;
+          surname[11].textContent = "" + students[11].surname;
           devise[11].textContent = "Devise : " + students[11].devise;
           passionFun[11].textContent = "Passion fun : " + students[11].passionFun;
           break;
@@ -381,7 +381,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[12].textContent = students[12].softSkills[2];
           skill4[12].textContent = students[12].softSkills[3];
           skill5[12].textContent = students[12].softSkills[4];
-          surname[12].textContent = "Surname : " + students[12].surname;
+          surname[12].textContent = "" + students[12].surname;
           devise[12].textContent = "Devise : " + students[12].devise;
           passionFun[12].textContent = "Passion fun : " + students[12].passionFun;
           break;
@@ -395,7 +395,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[13].textContent = students[13].softSkills[2];
           skill4[13].textContent = students[13].softSkills[3];
           skill5[13].textContent = students[13].softSkills[4];
-          surname[13].textContent = "Surname : " + students[13].surname;
+          surname[13].textContent = "" + students[13].surname;
           devise[13].textContent = "Devise : " + students[13].devise;
           passionFun[13].textContent = "Passion fun : " + students[13].passionFun;
           break;
@@ -409,7 +409,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[14].textContent = students[14].softSkills[2];
           skill4[14].textContent = students[14].softSkills[3];
           skill5[14].textContent = students[14].softSkills[4];
-          surname[14].textContent = "Surname : " + students[14].surname;
+          surname[14].textContent = "" + students[14].surname;
           devise[14].textContent = "Devise : " + students[14].devise;
           passionFun[14].textContent = "Passion fun : " + students[14].passionFun;
           break;
@@ -423,7 +423,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[15].textContent = students[15].softSkills[2];
           skill4[15].textContent = students[15].softSkills[3];
           skill5[15].textContent = students[15].softSkills[4];
-          surname[15].textContent = "Surname : " + students[15].surname;
+          surname[15].textContent = "" + students[15].surname;
           devise[15].textContent = "Devise : " + students[15].devise;
           passionFun[15].textContent = "Passion fun : " + students[15].passionFun;
           break;
@@ -437,7 +437,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[16].textContent = students[16].softSkills[2];
           skill4[16].textContent = students[16].softSkills[3];
           skill5[16].textContent = students[16].softSkills[4];
-          surname[16].textContent = "Surname : " + students[16].surname;
+          surname[16].textContent = "" + students[16].surname;
           devise[16].textContent = "Devise : " + students[16].devise;
           passionFun[16].textContent = "Passion fun : " + students[16].passionFun;
           break;
@@ -451,7 +451,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[17].textContent = students[17].softSkills[2];
           skill4[17].textContent = students[17].softSkills[3];
           skill5[17].textContent = students[17].softSkills[4];
-          surname[17].textContent = "Surname : " + students[17].surname;
+          surname[17].textContent = "" + students[17].surname;
           devise[17].textContent = "Devise : " + students[17].devise;
           passionFun[17].textContent = "Passion fun : " + students[17].passionFun;
           break;
