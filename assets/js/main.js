@@ -1,7 +1,7 @@
 let students = [
   {
     name: "Anthony Montmirail",
-    surname: "Tony Montana(scarface)",
+    surname: "Tony Montana",
     age: 42,
     presentation: "Elle gère la fougère",
     passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. 'En mode Apprentissage'",
@@ -16,7 +16,7 @@ let students = [
     age: 53,
     presentation: "Ne fait pas aux autres ce que tu n'aimerais pas qu’on te fasse",
     passion: "L’une de mes passions l’univers de  la création . J’aimerai devenir développeur d’application",
-    softSkills: ["Le sens du collectif", "La présence", "La motivation", "La créativité", "NinLa confiancejutsu"],
+    softSkills: ["Le sens du collectif", "La présence", "La motivation", "La créativité", "La confiance"],
     devise: " ",
     passionFun: " "
   },
@@ -35,31 +35,31 @@ let students = [
     name: "Ilias Imouli",
     surname: "Ili",
     age: 22,
-    presentation: "Go hard or go home",
+    presentation: "j'aimerais trouver une entreprise qui me permet de voyager",
     passion: "Sport et voyage",
     softSkills: ["Autonome ", "Curieux ", "Créativite", "Sportif", "Organisé"],
-    devise: " ",
-    passionFun: " "
+    devise: "Go hard or go home",
+    passionFun: "Les jeux vidéos"
   },
   {
     name: "Irina Pintchuk",
     surname: "Irina",
     age: 40,
-    presentation: "Les rêves donnent l’envie d’être à demain",
-    passion: "Passionné par les plantes dont je ne connais même pas les noms !",
+    presentation: "Voyager, prendre de jolies photos, la nature et être en harmonie avec soi-même et avec les autres, Je parle plusieurs langues: anglais, russe, ukrainien",
+    passion: "devenir développeur Web",
     softSkills: ["Empathie", "L’esprit d’équipe", "Flexibilité ", "Curiosité", "capacité d'écoute"],
-    devise: " ",
-    passionFun: " "
+    devise: "Si ton esprit est motivé, ton corps suivra",
+    passionFun: ""
   },
   {
     name: "Isabelle Hennes",
-    surname: "Isa ou Zabou",
+    surname: "Zabou",
     age: 32,
-    presentation: "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
+    presentation: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
     passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
     softSkills: ["L’empathie", "Gestion du temps", "Créativite", "L'esprit d’entreprendre", "Curiosité"],
-    devise: "#warrior",
-    passionFun: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!"
+    devise: "#warrior, toujours se relever, toujours recommencer, Interdit d’abandonner!",
+    passionFun: ""
   },
   {
     name: "Jérôme Rinner",
@@ -92,41 +92,41 @@ let students = [
     passionFun: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis"
   },
   {
-    name: "Julie Moulot",
-    surname: "Julie",
+    name: "Julie Mulot",
+    surname: "Olympe de Gouges",
     age: 23,
-    presentation: "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
+    presentation: "J’excelle en cuisine, particulièrement douée dans l’art d'accommoder les restes.",
     passion: "Fan de Tagada Jones et Ultra Vomit",
     softSkills: ["Aime observer", "écouter et trouver des solutions"],
-    devise: " ",
-    passionFun: " "
+    devise: "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
+    passionFun: "800 BD à la maison. "
   },
   {
     name: "Ludovic Marin",
     surname: "Ludo",
     age: 40,
-    presentation: "OVH - Serveur Dédié - Ubuntu 18.04 - PHP 7.2 phpMyAdmin - jQuery - Js Vanilla - Css3 - Bootstrap - DNS - HTTPS - référencement",
-    passion: "J’aime la musique et tout ce qui sonne pop, soul et funky. Je suis également passionné du web auquel je contribu depuis 2005 à travers 2 plateformes que j’ai réalisé et que j’ai mis en ligne. L’une étant un média musical que j’ai depuis arrêté et l’autre une niche centrée autour du partage et de la vente d’instrumentales",
+    presentation: "J’aime la musique et tout ce qui sonne pop, soul et funky",
+    passion: "Passionné du web auquel je contribue depuis 2005",
     softSkills: ["Curieux", "Astucieux", "Débrouillard", "Ponctuel", "Créatif"],
-    devise: " ",
-    passionFun: " "
+    devise: "Des fois je discute avec moi-même. Je m’aide à réfléchir et je me souffle des idées. J’en parle avec l’ordi et s’il est d’accord, on virtualise, on dématérialise, on sérialise et des choses se réalisent.",
+    passionFun: "j'ai 2 plateformes que j’ai réalisées et que j’ai mises en ligne. L’une étant un média musical et l’autre du partage et de la vente d’instrumentales."
   },
   {
     name: "Maëra David",
     surname: "Yaya ",
     age: 21,
-    presentation: "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse",
-    passion: "Passionnée par la culture Japonaise, je suis également une grande amatrice de lecture en tout genre. J’aime beaucoup jouer aux jeux vidéos et dessiner. Niveau pro, je souhaiterai développer mes compétences afin de pouvoir travailler dans une entreprise ou une agence en tant que développeur web, et gagner en expérience pour grimper les échelons",
+    presentation: "Je souhaiterai développer mes compétences afin de pouvoir travailler dans une agence en tant que développeur web, et gagner en expérience pour grimper les échelons",
+    passion: "Dessin à la tablette graphique",
     softSkills: ["Empathie", "Créativité", "Motivation", "Communication", "Confiance"],
-    devise: "Konnichiwa minna-san !",
+    devise: "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse",
     passionFun: "Les jeux vidéos, la culture japonaise, les bouquins, le dessin et le chant !"
   },
   {
     name: "Messaouda Benchikh",
     surname: "Messa le géant dormant",
     age: 37,
-    presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser. Nous sommes présents pour trouver des solutions et pour vous faciliter la vie",
-    passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères, soin des animaux, la nature ",
+    presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser",
+    passion: "l'informatique et les mathématique",
     softSkills: ["L’innovation", "Travail en groupe", "Communication", "Motivation", "Productivité"],
     devise: "La souffrance génère la créativité, courage toi même,  soit tu gagnes. Sois-tu apprends",
     passionFun: "Parler aux chats, j'aime beaucoup le panda, j'adore les aventures de Tintin"
@@ -152,24 +152,14 @@ let students = [
     passionFun: "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN"
   },
   {
-    name: "Nabil",
-    surname: "Jamy",
-    age: 25,
-    presentation: "Les rêves donnent l’envie d’être à demain",
-    passion: "Passionné par les plantes dont je ne connais même pas les noms !",
-    softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
-    devise: " ",
-    passionFun: " "
-  },
-  {
-    name: "Thomas Loegell",
+    name: "Thomas Loegel",
     surname: "Jamy",
     age: 33,
     presentation: "Les rêves donnent l’envie d’être à demain",
-    passion: "Passionné par les plantes dont je ne connais même pas les noms !",
+    passion: "Les sports de glisses",
     softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
     devise: "En route Marcel",
-    passionFun: "Les sports de glisses"
+    passionFun: "Passionné par les plantes dont je ne connais même pas les noms !"
   }
 ];
 
@@ -466,8 +456,8 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           passionFun[17].textContent = "Passion fun : " + students[17].passionFun;
           break;
 
-    
-    
+
+
 
     default:
       navbarText.textContent = "";
