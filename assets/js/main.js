@@ -123,7 +123,7 @@ let students = [
   },
   {
     name: "Messaouda Benchikh",
-    surname: "Messa le géant dormant",
+    surname: "Messa",
     age: 37,
     presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser",
     passion: "l'informatique et les mathématique",
@@ -152,7 +152,17 @@ let students = [
     passionFun: "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN"
   },
   {
-    name: "Thomas Loegel",
+    name: "Nabil",
+    surname: "Big Neb",
+    age: 25,
+    presentation: "Les rêves donnent l’envie d’être à demain",
+    passion: "Passionné par les plantes dont je ne connais même pas les noms !",
+    softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
+    devise: " ",
+    passionFun: " "
+  },
+  {
+    name: "Thomas Loegell",
     surname: "Jamy",
     age: 33,
     presentation: "Les rêves donnent l’envie d’être à demain",
