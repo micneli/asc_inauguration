@@ -1,7 +1,7 @@
 let students = [
   {
     name: "Anthony Montmirail",
-    surname: "Tony Montana (scarface)",
+    // surname: "Tony Montana (scarface)",
     age: 42,
     presentation: "Elle gère la fougère",
     passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. 'En mode Apprentissage'",
@@ -12,7 +12,7 @@ let students = [
 
   {
     name: "Béatrice Hatsch",
-    surname: "Béa",
+    // surname: "Béa",
     age: 53,
     presentation: "Ne fait pas aux autres ce que tu n'aimerais pas qu’on te fasse",
     passion: "L’une de mes passions l’univers de  la création . J’aimerai devenir développeur d’application",
@@ -23,7 +23,7 @@ let students = [
 
   {
     name: "Etienne Schmitt",
-    surname: "Syrgo",
+    // surname: "Syrgo",
     age: 22,
     presentation: "La programmation est simple mais il faut être un génie pour comprendre sa simplicité ",
     passion: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon au quotidien, j’aime également le monde de la programmation informatique et développe des apps/webapps pour le jeu de rôles",
@@ -33,7 +33,7 @@ let students = [
   },
   {
     name: "Ilias Imouli",
-    surname: "Ili",
+    // surname: "Ili",
     age: 22,
     presentation: "Go hard or go home",
     passion: "Sport et voyage",
@@ -43,7 +43,7 @@ let students = [
   },
   {
     name: "Irina Pintchuk",
-    surname: "Irina",
+    // surname: "Irina",
     age: 40,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
@@ -53,7 +53,7 @@ let students = [
   },
   {
     name: "Isabelle Hennes",
-    surname: "Isa ou Zabou",
+    // surname: "Isa ou Zabou",
     age: 32,
     presentation: "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
     passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
@@ -63,7 +63,7 @@ let students = [
   },
   {
     name: "Jérôme Rinner",
-    surname: "Le crieur",
+    // surname: "Le crieur",
     age:37 ,
     presentation: "La créativité est contagieuse, faites la tourner !",
     passion: "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature",
@@ -73,7 +73,7 @@ let students = [
   },
   {
     name: "Joan Sor",
-    surname: "Jojo",
+    // surname: "Jojo",
     age: 34,
     presentation: "Tout métier qui ne fait pas oublier le travail est un esclavage",
     passion: "while (travaille === plaisir et passion){console.log(“just do it”)};",
@@ -83,7 +83,7 @@ let students = [
   },
   {
     name: "Johanna Galli",
-    surname: "Djobi",
+    // surname: "Djobi",
     age: 23,
     presentation: "Ce ne sont pas nos aptitudes qui montrent ce que nous sommes, ce sont nos choix",
     passion: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis",
@@ -93,7 +93,7 @@ let students = [
   },
   {
     name: "Julie Moulot",
-    surname: "Julie",
+    // surname: "Julie",
     age: 23,
     presentation: "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
     passion: "Fan de Tagada Jones et Ultra Vomit",
@@ -103,7 +103,7 @@ let students = [
   },
   {
     name: "Ludovic Marin",
-    surname: "Ludo",
+    // surname: "Ludo",
     age: 40,
     presentation: "OVH - Serveur Dédié - Ubuntu 18.04 - PHP 7.2 phpMyAdmin - jQuery - Js Vanilla - Css3 - Bootstrap - DNS - HTTPS - référencement",
     passion: "J’aime la musique et tout ce qui sonne pop, soul et funky. Je suis également passionné du web auquel je contribu depuis 2005 à travers 2 plateformes que j’ai réalisé et que j’ai mis en ligne. L’une étant un média musical que j’ai depuis arrêté et l’autre une niche centrée autour du partage et de la vente d’instrumentales",
@@ -113,7 +113,7 @@ let students = [
   },
   {
     name: "Maëra David",
-    surname: "Yaya ",
+    // surname: "Yaya ",
     age: 21,
     presentation: "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse",
     passion: "Passionnée par la culture Japonaise, je suis également une grande amatrice de lecture en tout genre. J’aime beaucoup jouer aux jeux vidéos et dessiner. Niveau pro, je souhaiterai développer mes compétences afin de pouvoir travailler dans une entreprise ou une agence en tant que développeur web, et gagner en expérience pour grimper les échelons",
@@ -123,7 +123,7 @@ let students = [
   },
   {
     name: "Messaouda Benchikh",
-    surname: "Messa le géant dormant",
+    // surname: "Messa le géant dormant",
     age: 37,
     presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser. Nous sommes présents pour trouver des solutions et pour vous faciliter la vie",
     passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères, soin des animaux, la nature ",
@@ -133,7 +133,7 @@ let students = [
   },
   {
     name: "Nebojsa Mihaljevic",
-    surname: "Nebo",
+    // surname: "Nebo",
     age: 48,
     presentation: "Work hard and have fun!!",
     passion: "Sports, voyage, passer le temps avec la famille et les amis",
@@ -143,7 +143,7 @@ let students = [
   },
   {
     name: "Victor Lapostolle",
-    surname: "Raptaman",
+    // surname: "Raptaman",
     age: 25,
     presentation: "L’ignorant affirme, le savant doute, le sage réfléchit",
     passion: "Le web et les BD",
@@ -153,7 +153,7 @@ let students = [
   },
   {
     name: "Nabil",
-    surname: "Jamy",
+    // surname: "Jamy",
     age: 25,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
@@ -163,7 +163,7 @@ let students = [
   },
   {
     name: "Thomas Loegell",
-    surname: "Jamy",
+    // surname: "Jamy",
     age: 33,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
@@ -178,7 +178,7 @@ let age1 = document.getElementsByClassName("age1");
 let passion1 = document.getElementsByClassName("passion1");
 let presentation1 = document.getElementsByClassName("presentation1");
 
-let surname = document.getElementsByClassName("surname");
+// let surname = document.getElementsByClassName("surname");
 let devise = document.getElementsByClassName("devise");
 let passionFun = document.getElementsByClassName("passionFun");
 
@@ -190,7 +190,7 @@ let skill5 = document.getElementsByClassName("skill5");
 
 
 $('#myCarousel').carousel({
-  interval: 10000
+  interval: 5000
 })
 
 let navbar = document.querySelector(".navbar");
@@ -223,7 +223,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       skill3[0].textContent = students[0].softSkills[2];
       skill4[0].textContent = students[0].softSkills[3];
       skill5[0].textContent = students[0].softSkills[4];
-      surname[0].textContent = "Surname : " + students[0].surname;
+      // surname[0].textContent = "Surname : " + students[0].surname;
       devise[0].textContent = "Devise : " + students[0].devise;
       passionFun[0].textContent = "Passion fun : " + students[0].passionFun;
       break;
@@ -237,7 +237,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       skill3[1].textContent = students[1].softSkills[2];
       skill4[1].textContent = students[1].softSkills[3];
       skill5[1].textContent = students[1].softSkills[4];
-      surname[1].textContent = "Surname : " + students[1].surname;
+      // surname[1].textContent = "Surname : " + students[1].surname;
       devise[1].textContent = "Devise : " + students[1].devise;
       passionFun[1].textContent = "Passion fun : " + students[1].passionFun;
       break;
@@ -251,7 +251,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
       skill3[2].textContent = students[2].softSkills[2];
       skill4[2].textContent = students[2].softSkills[3];
       skill5[2].textContent = students[2].softSkills[4];
-      surname[2].textContent = "Surname : " + students[2].surname;
+      // surname[2].textContent = "Surname : " + students[2].surname;
       devise[2].textContent = "Devise : " + students[2].devise;
       passionFun[2].textContent = "Passion fun : " + students[2].passionFun;
       break;
@@ -265,7 +265,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
         skill3[3].textContent = students[3].softSkills[2];
         skill4[3].textContent = students[3].softSkills[3];
         skill5[3].textContent = students[3].softSkills[4];
-        surname[3].textContent = "Surname : " + students[3].surname;
+        // surname[3].textContent = "Surname : " + students[3].surname;
         devise[3].textContent = "Devise : " + students[3].devise;
         passionFun[3].textContent = "Passion fun : " + students[3].passionFun;
         break;
@@ -279,7 +279,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
         skill3[4].textContent = students[4].softSkills[2];
         skill4[4].textContent = students[4].softSkills[3];
         skill5[4].textContent = students[4].softSkills[4];
-        surname[4].textContent = "Surname : " + students[4].surname;
+        // surname[4].textContent = "Surname : " + students[4].surname;
         devise[4].textContent = "Devise : " + students[4].devise;
         passionFun[4].textContent = "Passion fun : " + students[4].passionFun;
         break;
@@ -293,7 +293,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[5].textContent = students[5].softSkills[2];
           skill4[5].textContent = students[5].softSkills[3];
           skill5[5].textContent = students[5].softSkills[4];
-          surname[5].textContent = "Surname : " + students[5].surname;
+          // surname[5].textContent = "Surname : " + students[5].surname;
           devise[5].textContent = "Devise : " + students[5].devise;
           passionFun[5].textContent = "Passion fun : " + students[5].passionFun;
           break;
@@ -307,7 +307,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[6].textContent = students[6].softSkills[2];
           skill4[6].textContent = students[6].softSkills[3];
           skill5[6].textContent = students[6].softSkills[4];
-          surname[6].textContent = "Surname : " + students[6].surname;
+          // surname[6].textContent = "Surname : " + students[6].surname;
           devise[6].textContent = "Devise : " + students[6].devise;
           passionFun[6].textContent = "Passion fun : " + students[6].passionFun;
           break;
@@ -321,7 +321,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[7].textContent = students[7].softSkills[2];
           skill4[7].textContent = students[7].softSkills[3];
           skill5[7].textContent = students[7].softSkills[4];
-          surname[7].textContent = "Surname : " + students[7].surname;
+          // surname[7].textContent = "Surname : " + students[7].surname;
           devise[7].textContent = "Devise : " + students[7].devise;
           passionFun[7].textContent = "Passion fun : " + students[7].passionFun;
           break;
@@ -335,7 +335,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[8].textContent = students[8].softSkills[2];
           skill4[8].textContent = students[8].softSkills[3];
           skill5[8].textContent = students[8].softSkills[4];
-          surname[8].textContent = "Surname : " + students[8].surname;
+          // surname[8].textContent = "Surname : " + students[8].surname;
           devise[8].textContent = "Devise : " + students[8].devise;
           passionFun[8].textContent = "Passion fun : " + students[8].passionFun;
           break;
@@ -349,7 +349,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[9].textContent = students[9].softSkills[2];
           skill4[9].textContent = students[9].softSkills[3];
           skill5[9].textContent = students[9].softSkills[4];
-          surname[9].textContent = "Surname : " + students[9].surname;
+          // surname[9].textContent = "Surname : " + students[9].surname;
           devise[9].textContent = "Devise : " + students[9].devise;
           passionFun[9].textContent = "Passion fun : " + students[9].passionFun;
           break;
@@ -363,7 +363,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[10].textContent = students[10].softSkills[2];
           skill4[10].textContent = students[10].softSkills[3];
           skill5[10].textContent = students[10].softSkills[4];
-          surname[10].textContent = "Surname : " + students[10].surname;
+          // surname[10].textContent = "Surname : " + students[10].surname;
           devise[10].textContent = "Devise : " + students[10].devise;
           passionFun[10].textContent = "Passion fun : " + students[10].passionFun;
           break;
@@ -377,7 +377,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[11].textContent = students[11].softSkills[2];
           skill4[11].textContent = students[11].softSkills[3];
           skill5[11].textContent = students[11].softSkills[4];
-          surname[11].textContent = "Surname : " + students[11].surname;
+          // surname[11].textContent = "Surname : " + students[11].surname;
           devise[11].textContent = "Devise : " + students[11].devise;
           passionFun[11].textContent = "Passion fun : " + students[11].passionFun;
           break;
@@ -391,7 +391,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[12].textContent = students[12].softSkills[2];
           skill4[12].textContent = students[12].softSkills[3];
           skill5[12].textContent = students[12].softSkills[4];
-          surname[12].textContent = "Surname : " + students[12].surname;
+          // surname[12].textContent = "Surname : " + students[12].surname;
           devise[12].textContent = "Devise : " + students[12].devise;
           passionFun[12].textContent = "Passion fun : " + students[12].passionFun;
           break;
@@ -405,7 +405,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[13].textContent = students[13].softSkills[2];
           skill4[13].textContent = students[13].softSkills[3];
           skill5[13].textContent = students[13].softSkills[4];
-          surname[13].textContent = "Surname : " + students[13].surname;
+          // surname[13].textContent = "Surname : " + students[13].surname;
           devise[13].textContent = "Devise : " + students[13].devise;
           passionFun[13].textContent = "Passion fun : " + students[13].passionFun;
           break;
@@ -419,7 +419,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[14].textContent = students[14].softSkills[2];
           skill4[14].textContent = students[14].softSkills[3];
           skill5[14].textContent = students[14].softSkills[4];
-          surname[14].textContent = "Surname : " + students[14].surname;
+          // surname[14].textContent = "Surname : " + students[14].surname;
           devise[14].textContent = "Devise : " + students[14].devise;
           passionFun[14].textContent = "Passion fun : " + students[14].passionFun;
           break;
@@ -433,7 +433,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[15].textContent = students[15].softSkills[2];
           skill4[15].textContent = students[15].softSkills[3];
           skill5[15].textContent = students[15].softSkills[4];
-          surname[15].textContent = "Surname : " + students[15].surname;
+          // surname[15].textContent = "Surname : " + students[15].surname;
           devise[15].textContent = "Devise : " + students[15].devise;
           passionFun[15].textContent = "Passion fun : " + students[15].passionFun;
           break;
@@ -447,7 +447,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[16].textContent = students[16].softSkills[2];
           skill4[16].textContent = students[16].softSkills[3];
           skill5[16].textContent = students[16].softSkills[4];
-          surname[16].textContent = "Surname : " + students[16].surname;
+          // surname[16].textContent = "Surname : " + students[16].surname;
           devise[16].textContent = "Devise : " + students[16].devise;
           passionFun[16].textContent = "Passion fun : " + students[16].passionFun;
           break;
@@ -461,7 +461,7 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           skill3[17].textContent = students[17].softSkills[2];
           skill4[17].textContent = students[17].softSkills[3];
           skill5[17].textContent = students[17].softSkills[4];
-          surname[17].textContent = "Surname : " + students[17].surname;
+          // surname[17].textContent = "Surname : " + students[17].surname;
           devise[17].textContent = "Devise : " + students[17].devise;
           passionFun[17].textContent = "Passion fun : " + students[17].passionFun;
           break;

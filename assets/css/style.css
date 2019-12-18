@@ -3,6 +3,10 @@ body {
     background-size: cover;
 }
 
+.jumbotron{
+  height: 85vh;
+}
+
 .back-image-1 {
     background: url('../../images/back-pro.jpg');
     background-size: cover;
