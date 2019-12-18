@@ -1,21 +1,30 @@
+body {
+    background-image: url('../../images/background.jpg');
+    background-size: cover;
+}
+
+/* .jumbotron{
+  height: 85vh;
+} */
+
 .back-image-1 {
-    background: url('../../images/wild-west.jpg');
+    background: url('../../images/back-pro.jpg');
     background-size: cover;
 }
 
 .back-image-2 {
-    background: url('../../images/web-developer.jpg');
+    background: url('../../images/back-fun.jpg');
     background-size: cover;
 }
 
 .rotated {
-    transform: rotate(4deg);
+    transform: rotate(2deg);
     /*background-color: pink;
-    */-webkit-transform: rotate(4deg);
-    -moz-transform: rotate(4deg);
-    -ms-transform: rotate(4deg);
-    -o-transform: rotate(4deg);
-    -webkit-transform: rotate(4deg);
+    */-webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
 }
 
 .textCenter {
@@ -38,3 +47,64 @@
     -o-transform: rotate(-4deg);
 }
 
+
+
+
+.animborder{
+
+
+    background: #111845a6;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgb(114, 112, 112);
+    border: 2px solid #2a3cad;
+    color: white;
+
+  }
+
+  .animborder:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.1);
+    transition:0.5s;
+    pointer-events: none;
+  }
+
+  .animborder:hover:before{
+    left:-50%;
+    transform: skewX(-5deg);
+  }
+
+
+
+
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+
+    }
+
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+
+    }
+
+
+  }
