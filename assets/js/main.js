@@ -26,10 +26,10 @@ let students = [
     surname: "Syrgo",
     age: 22,
     presentation: "La programmation est simple mais il faut être un génie pour comprendre sa simplicité ",
-    passion: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon au quotidien, j’aime également le monde de la programmation informatique et développe des apps/webapps pour le jeu de rôles",
+    passion: "Jeux de rôles/cartes/vidéos et UNIX",
     softSkills: ["Esprit critique", "Coopération", "Curiosité", "VIsion", "Présence "],
     devise: "Toujours conserver sa meilleure carte à porté de main",
-    passionFun: "Jeux de rôles/cartes/vidéos et UNIX"
+    passionFun: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon au quotidien, j’aime également le monde de la programmation informatique et développe des apps/webapps pour le jeu de rôles"
   },
   {
     name: "Ilias Imouli",

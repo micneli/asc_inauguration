@@ -45,7 +45,7 @@ body {
 
 
 
-
+/* 
 .animborder{
 
 
@@ -100,10 +100,11 @@ body {
       transform:scaleX(0);
     transform-origin: right;
 
-    }
+    } 
 
 
-  }
+  } */
+  
   .pos{
      position: absolute !important;
      top: 50%;
