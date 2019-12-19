@@ -1,7 +1,7 @@
 let students = [
   {
     name: "Anthony Montmirail",
-    surname: "Tony Montana",
+    surname: "Oui, c'est mon surnom!",
     age: 42,
     presentation: "Elle gère la fougère",
     passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. #Mode Apprentissage",
@@ -12,7 +12,7 @@ let students = [
 
   {
     name: "Béatrice Hatsch",
-    surname: "Béa",
+    surname: "Oui, c'est mon surnom!",
     age: 53,
     presentation: "Ne fait pas aux autres ce que tu n'aimerais pas qu’on te fasse",
     passion: "L’une de mes passions l’univers de  la création . J’aimerai devenir développeur d’application",
@@ -23,7 +23,7 @@ let students = [
 
   {
     name: "Etienne Schmitt",
-    surname: "Syrgo",
+    surname: "Oui, c'est mon surnom!",
     age: 22,
     presentation: "La programmation est simple mais il faut être un génie pour comprendre sa simplicité ",
     passion: "Jeux de rôles/cartes/vidéos et UNIX",
@@ -33,7 +33,7 @@ let students = [
   },
   {
     name: "Ilias Imouli",
-    surname: "Ili",
+    surname: "Oui, c'est mon surnom!",
     age: 22,
     presentation: "j'aimerais trouver une entreprise qui me permet de voyager",
     passion: "Sport et voyage",
@@ -43,7 +43,7 @@ let students = [
   },
   {
     name: "Irina Pintchuk",
-    surname: "Irina",
+    surname: "Oui, c'est mon surnom!",
     age: 40,
     presentation: "Voyager, prendre de jolies photos, la nature et être en harmonie avec soi-même et avec les autres, Je parle plusieurs langues: anglais, russe, ukrainien",
     passion: "devenir développeur Web",
@@ -53,7 +53,7 @@ let students = [
   },
   {
     name: "Isabelle Hennes",
-    surname: "Zabou",
+    surname: "Oui, c'est mon surnom!",
     age: 32,
     presentation: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
     passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
@@ -63,7 +63,7 @@ let students = [
   },
   {
     name: "Jérôme Rinner",
-    surname: "Le crieur",
+    surname: "Oui, c'est mon surnom!",
     age:37 ,
     presentation: "La créativité est contagieuse, faites la tourner !",
     passion: "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature",
@@ -73,7 +73,7 @@ let students = [
   },
   {
     name: "Joan Sor",
-    surname: "Jojo",
+    surname: "Oui, c'est mon surnom!",
     age: 34,
     presentation: "Tout métier qui ne fait pas oublier le travail est un esclavage",
     passion: "while (travaille === plaisir et passion){console.log(“just do it”)};",
@@ -83,7 +83,7 @@ let students = [
   },
   {
     name: "Johanna Galli",
-    surname: "Djobi",
+    surname: "Oui, c'est mon surnom!",
     age: 23,
     presentation: "Ce ne sont pas nos aptitudes qui montrent ce que nous sommes, ce sont nos choix",
     passion: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis",
@@ -93,8 +93,8 @@ let students = [
   },
   {
     name: "Julie Mulot",
-    surname: "Olympe de Gouges",
-    age: 23,
+    surname: "Oui, c'est mon surnom!",
+    age: 30,
     presentation: "J’excelle en cuisine, particulièrement douée dans l’art d'accommoder les restes.",
     passion: "Fan de Tagada Jones et Ultra Vomit",
     softSkills: ["Aime observer", "écouter et trouver des solutions"],
@@ -103,7 +103,7 @@ let students = [
   },
   {
     name: "Ludovic Marin",
-    surname: "Ludo",
+    surname: "Oui, c'est mon surnom!",
     age: 40,
     presentation: "J’aime la musique et tout ce qui sonne pop, soul et funky",
     passion: "Passionné du web auquel je contribue depuis 2005",
@@ -113,7 +113,7 @@ let students = [
   },
   {
     name: "Maëra David",
-    surname: "Yaya ",
+    surname: "Oui, c'est mon surnom!",
     age: 21,
     presentation: "Je souhaiterai développer mes compétences afin de pouvoir travailler dans une agence en tant que développeur web, et gagner en expérience pour grimper les échelons",
     passion: "Dessin à la tablette graphique",
@@ -123,7 +123,7 @@ let students = [
   },
   {
     name: "Messaouda Benchikh",
-    surname: "Messa",
+    surname: "Oui, c'est mon surnom!",
     age: 37,
     presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser",
     passion: "l'informatique et les mathématique",
@@ -133,7 +133,7 @@ let students = [
   },
   {
     name: "Nebojsa Mihaljevic",
-    surname: "Nebo",
+    surname: "Oui, c'est mon surnom!",
     age: 48,
     presentation: "Work hard and have fun!!",
     passion: "Sports, voyage, passer le temps avec la famille et les amis",
@@ -143,7 +143,7 @@ let students = [
   },
   {
     name: "Victor Lapostolle",
-    surname: "Raptaman",
+    surname: "Oui, c'est mon surnom!",
     age: 25,
     presentation: "L’ignorant affirme, le savant doute, le sage réfléchit",
     passion: "Le web et les BD",
@@ -153,8 +153,8 @@ let students = [
   },
   {
     name: "Nabil",
-    surname: "Big Neb",
-    age: 25,
+    surname: "Oui, c'est mon surnom!",
+    age: 40,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
     softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
@@ -163,7 +163,7 @@ let students = [
   },
   {
     name: "Thomas Loegell",
-    surname: "Jamy",
+    surname: "Oui, c'est mon surnom!",
     age: 33,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Les sports de glisses",
