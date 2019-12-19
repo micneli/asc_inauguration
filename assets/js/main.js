@@ -17,8 +17,8 @@ let students = [
     presentation: "Ne fait pas aux autres ce que tu n'aimerais pas qu’on te fasse",
     passion: "L’univers de  la création . J’aimerai devenir développeur d’application",
     softSkills: ["Le sens du collectif", "La présence", "La motivation", "La créativité", "La confiance"],
-    devise: " ",
-    passionFun: " "
+    devise: "J'adore les pastabox!",
+    passionFun: "Bolo... carbo..."
   },
 
   {
@@ -26,10 +26,10 @@ let students = [
     surname: "Syrgo",
     age: "22 ans",
     presentation: "La programmation est simple mais il faut être un génie pour comprendre sa simplicité ",
-    passion: "J'adore les jeux de cartes et de rôle, et je développe des apps/webapps pour des jeux de rôles",
+    passion: "J'adore les jeux de cartes et de rôle",
     softSkills: ["Esprit critique", "Coopération", "Curiosité", "VIsion", "Présence "],
     devise: "Toujours conserver sa meilleure carte à porté de main",
-    passionFun: "Jeux de rôles, jeux de cartes, jeux vidéos et UNIX"
+    passionFun: "Jeux vidéos et UNIX"
   },
   {
     name: "Ilias Imouli",
@@ -65,7 +65,7 @@ let students = [
     name: "Jérôme Rinner",
     surname: "Le crieur",
     age: "37 ans",
-    presentation: "La créativité est contagieuse, faites la tourner !",
+    presentation: "La créativité est contagieuse, faites la tourner!",
     passion: "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature",
     softSkills: ["Adaptabilité", "Esprit d'équipe", "Rigueur", "Passion", "Ecoute"],
     devise: "Du bout de mon canon la liberté tu trouvera",
@@ -97,7 +97,7 @@ let students = [
     age: "23 ans",
     presentation: "J’excelle en cuisine, particulièrement douée dans l’art d'accommoder les restes.",
     passion: "Fan de Tagada Jones et Ultra Vomit",
-    softSkills: ["Aime observer", "écouter et trouver des solutions"],
+    softSkills: ["Aime observer", "écouter et trouver des solutions", "gourmande", "joyeuse", "grognon"],
     devise: "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
     passionFun: "800 BD à la maison. "
   },
@@ -108,8 +108,8 @@ let students = [
     presentation: "J’aime la musique et tout ce qui sonne pop, soul et funky",
     passion: "Passionné du web auquel je contribue depuis 2005",
     softSkills: ["Curieux", "Astucieux", "Débrouillard", "Ponctuel", "Créatif"],
-    devise: "Des fois je discute avec moi-même. Je m’aide à réfléchir et je me souffle des idées. J’en parle avec l’ordi et s’il est d’accord, on virtualise, on dématérialise, on sérialise et des choses se réalisent.",
-    passionFun: "j'ai 2 plateformes que j’ai réalisées et que j’ai mises en ligne. L’une étant un média musical et l’autre du partage et de la vente d’instrumentales."
+    devise: "Des fois je discute avec moi-même. Je m’aide à réfléchir et je me souffle des idées. J’en parle avec l’ordi et s’il est d’accord",
+    passionFun: "J'adore repasser mes lacets"
   },
   {
     name: "Maëra David",
@@ -154,12 +154,12 @@ let students = [
   {
     name: "Nabil",
     surname: "Big Neb",
-    age: " ",
-    presentation: " ",
-    passion: " ",
-    softSkills: " ",
-    devise: " ",
-    passionFun: " ",
+    age: "38 ans",
+    presentation: " Geek et musicien dans l'âme. Expérience diverses et variées",
+    passion: "La musique",
+    softSkills: ["Dynamique", "Aisance relationnelle", "Toujours disponible", "Curiosité", "Créativité"],
+    devise: "Maître Yoda à dit : Difficile à voir. Toujours en mouvement est l'avenir",
+    passionFun: "Star Wars",
   },
   {
     name: "Thomas Loegel",
@@ -190,7 +190,7 @@ let skill5 = document.getElementsByClassName("skill5");
 
 
 $('#myCarousel').carousel({
-   interval: 5000
+   interval: 15000
 })
 
 let navbar = document.querySelector(".navbar");
@@ -338,6 +338,9 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
          presentation1[9].textContent = students[9].presentation;
          skill1[9].textContent = students[9].softSkills[0];
          skill2[9].textContent = students[9].softSkills[1];
+         skill3[9].textContent = students[9].softSkills[2];
+         skill4[9].textContent = students[9].softSkills[3];
+         skill5[9].textContent = students[9].softSkills[4];
          devise[9].textContent = "Devise : " + students[9].devise;
          passionFun[9].textContent = "Passion : " + students[9].passionFun;
          break;
