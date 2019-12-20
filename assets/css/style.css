@@ -47,7 +47,10 @@ body {
     -o-transform: rotate(-4deg);
 }
 
-
+.horizontal {
+  overflow-x: hidden;
+  height: 100%;
+}
 
 
 /* .animborder{
