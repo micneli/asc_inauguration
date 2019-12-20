@@ -7,7 +7,10 @@ let students = [
     passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. 'En mode Apprentissage'",
     softSkills: ["Présence", "Vision", "Audace", "Confiance", "Gestion du temps"],
     devise: "Demain nous appartient",
-    passionFun: "J'ai découvert la Trotinette et depuis je suis libéré, délivré ... lol"
+    passionFun: "J'ai découvert la Trotinette et depuis je suis libéré, délivré ... lol",
+    img: "images/page_initial/anthony-pdg.png",
+    imgPro: "images/pro/anthony-pro.png",
+    imgFun: "images/fantasy/anthony-fantasy.png"
   },
 
   {
@@ -18,7 +21,10 @@ let students = [
     passion: "L’une de mes passions l’univers de  la création . J’aimerai devenir développeur d’application",
     softSkills: ["Le sens du collectif", "La présence", "La motivation", "La créativité", "NinLa confiancejutsu"],
     devise: " ",
-    passionFun: " "
+    passionFun: " ",
+    img: "images/page_initial/beatrice-pdg.png",
+    imgPro: "images/pro/beatrice-pro.png",
+    imgFun: "images/fantasy/beatrice-fantasy.png"
   },
 
   {
@@ -29,7 +35,10 @@ let students = [
     passion: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon au quotidien, j’aime également le monde de la programmation informatique et développe des apps/webapps pour le jeu de rôles",
     softSkills: ["Esprit critique", "Coopération", "Curiosité", "VIsion", "Présence "],
     devise: "Toujours conserver sa meilleure carte à porté de main",
-    passionFun: "Jeux de rôles/cartes/vidéos et UNIX"
+    passionFun: "Jeux de rôles/cartes/vidéos et UNIX",
+    img: "images/page_initial/etienne-pdg.png",
+    imgPro: "images/pro/etienne-pro.png",
+    imgFun: "images/fantasy/etienne-fantasy.png"
   },
   {
     name: "Ilias Imouli",
@@ -39,7 +48,10 @@ let students = [
     passion: "Sport et voyage",
     softSkills: ["Autonome ", "Curieux ", "Créativite", "Sportif", "Organisé"],
     devise: " ",
-    passionFun: " "
+    passionFun: " ",
+    img: "images/page_initial/illias-pdg.png",
+    imgPro: "images/pro/illias-pro.png",
+    imgFun: "images/fantasy/illias-fantasy.png"
   },
   {
     name: "Irina Pintchuk",
@@ -49,7 +61,10 @@ let students = [
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
     softSkills: ["Empathie", "L’esprit d’équipe", "Flexibilité ", "Curiosité", "capacité d'écoute"],
     devise: " ",
-    passionFun: " "
+    passionFun: " ",
+    img: "images/page_initial/irina-pdg.png",
+    imgPro: "images/pro/irina-pro.png",
+    imgFun: "images/fantasy/irina-fantasy.png"
   },
   {
     name: "Isabelle Hennes",
@@ -59,7 +74,10 @@ let students = [
     passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
     softSkills: ["L’empathie", "Gestion du temps", "Créativite", "L'esprit d’entreprendre", "Curiosité"],
     devise: "#warrior",
-    passionFun: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!"
+    passionFun: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
+    img: "images/page_initial/isabelle-pdg.png",
+    imgPro: "images/pro/isabelle-pro.png",
+    imgFun: "images/fantasy/isabelle-fantasy.png"
   },
   {
     name: "Jérôme Rinner",
@@ -69,7 +87,10 @@ let students = [
     passion: "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature",
     softSkills: ["Adaptabilité", "Esprit d'équipe", "Rigueur", "Passion", "Ecoute"],
     devise: "Du bout de mon canon la liberté tu trouvera",
-    passionFun: "Répandre la bonne parole avec mon six coups"
+    passionFun: "Répandre la bonne parole avec mon six coups",
+    img: "images/page_initial/jerome-pdg.png",
+    imgPro: "images/pro/jerome-pro.png",
+    imgFun: "images/fantasy/jerome-fantasy.png"
   },
   {
     name: "Joan Sor",
@@ -79,7 +100,10 @@ let students = [
     passion: "while (travaille === plaisir et passion){console.log(“just do it”)};",
     softSkills: ["Motivation", "Créativité", "Ténacité", "Détermination", "Esprit d’équipe"],
     devise: "Chuck Norris ne ment jamais, c'est la vérité qui se trompe",
-    passionFun: "Tricher au Uno !"
+    passionFun: "Tricher au Uno !",
+    img: "images/page_initial/joann-pdg.png",
+    imgPro: "images/pro/joann-pro.png",
+    imgFun: "images/fantasy/joann-fantasy.png"
   },
   {
     name: "Johanna Galli",
@@ -89,7 +113,10 @@ let students = [
     passion: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis",
     softSkills: ["Résolution des problèmes", "Gestion du temps", "Sens du collectif", "Créativité", "Empathie "],
     devise: "Sans la musique, la vie serait une erreur",
-    passionFun: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis"
+    passionFun: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis",
+    img: "images/page_initial/johanna-pdg.png",
+    imgPro: "images/pro/johanna-pro.png",
+    imgFun: "images/fantasy/johanna-fantasy.png"
   },
   {
     name: "Julie Moulot",
@@ -99,7 +126,10 @@ let students = [
     passion: "Fan de Tagada Jones et Ultra Vomit",
     softSkills: ["Aime observer", "écouter et trouver des solutions"],
     devise: " ",
-    passionFun: " "
+    passionFun: " ",
+    img: "images/page_initial/julie-pdg.png",
+    imgPro: "images/pro/julie-pro.png",
+    imgFun: "images/fantasy/julie-fantasy.png"
   },
   {
     name: "Ludovic Marin",
@@ -109,7 +139,10 @@ let students = [
     passion: "J’aime la musique et tout ce qui sonne pop, soul et funky. Je suis également passionné du web auquel je contribu depuis 2005 à travers 2 plateformes que j’ai réalisé et que j’ai mis en ligne. L’une étant un média musical que j’ai depuis arrêté et l’autre une niche centrée autour du partage et de la vente d’instrumentales",
     softSkills: ["Curieux", "Astucieux", "Débrouillard", "Ponctuel", "Créatif"],
     devise: " ",
-    passionFun: " "
+    passionFun: " ",
+    img: "images/page_initial/ludo-pdg.png",
+    imgPro: "images/pro/ludo-pro.png",
+    imgFun: "images/fantasy/ludo-fantasy.png"
   },
   {
     name: "Maëra David",
@@ -119,7 +152,10 @@ let students = [
     passion: "Passionnée par la culture Japonaise, je suis également une grande amatrice de lecture en tout genre. J’aime beaucoup jouer aux jeux vidéos et dessiner. Niveau pro, je souhaiterai développer mes compétences afin de pouvoir travailler dans une entreprise ou une agence en tant que développeur web, et gagner en expérience pour grimper les échelons",
     softSkills: ["Empathie", "Créativité", "Motivation", "Communication", "Confiance"],
     devise: "Konnichiwa minna-san !",
-    passionFun: "Les jeux vidéos, la culture japonaise, les bouquins, le dessin et le chant !"
+    passionFun: "Les jeux vidéos, la culture japonaise, les bouquins, le dessin et le chant !",
+    img: "images/page_initial/maera-pdg.png",
+    imgPro: "images/pro/maera-pro.png",
+    imgFun: "images/fantasy/maera-fantasy.png"
   },
   {
     name: "Messaouda Benchikh",
@@ -129,7 +165,10 @@ let students = [
     passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères, soin des animaux, la nature ",
     softSkills: ["L’innovation", "Travail en groupe", "Communication", "Motivation", "Productivité"],
     devise: "La souffrance génère la créativité, courage toi même,  soit tu gagnes. Sois-tu apprends",
-    passionFun: "Parler aux chats, j'aime beaucoup le panda, j'adore les aventures de Tintin"
+    passionFun: "Parler aux chats, j'aime beaucoup le panda, j'adore les aventures de Tintin",
+    img: "images/page_initial/messaouda-pdg.png",
+    imgPro: "images/pro/messaouda-pro.png",
+    imgFun: "images/fantasy/messaouda-fantasy.png"
   },
   {
     name: "Nebojsa Mihaljevic",
@@ -139,7 +178,10 @@ let students = [
     passion: "Sports, voyage, passer le temps avec la famille et les amis",
     softSkills: ["Travailleur", "Précis", "Fiable", "Sérieux", "Raisonnable"],
     devise: "Mieux vaut prévenir que guérir",
-    passionFun: "Rechercher le monde de nature"
+    passionFun: "Rechercher le monde de nature",
+    img: "images/page_initial/nebo-pdg.png",
+    imgPro: "images/pro/nebo-pro.png",
+    imgFun: "images/fantasy/nebo-fantasy.png"
   },
   {
     name: "Victor Lapostolle",
@@ -149,17 +191,10 @@ let students = [
     passion: "Le web et les BD",
     softSkills: ["Curiosité", "Adaptabilité", "Endurance", "Créativité", "Patience"],
     devise: "I’m Batman but less rich",
-    passionFun: "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN"
-  },
-  {
-    name: "Nabil",
-    // surname: "Jamy",
-    age: 25,
-    presentation: "Les rêves donnent l’envie d’être à demain",
-    passion: "Passionné par les plantes dont je ne connais même pas les noms !",
-    softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
-    devise: " ",
-    passionFun: " "
+    passionFun: "Ma passion c’est Batman, je dessine Batman, je parle Batman, I AM BATMAN",
+    img: "images/page_initial/victor-pdg.png",
+    imgPro: "images/pro/victor-pro.png",
+    imgFun: "images/fantasy/victor-fantasy.png"
   },
   {
     name: "Thomas Loegell",
@@ -169,7 +204,10 @@ let students = [
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
     softSkills: ["Flexibilité", "Le sens du service", "L’esprit d’équipe", "La curiosité", "L’esprit d’entreprendre"],
     devise: "En route Marcel",
-    passionFun: "Les sports de glisses"
+    passionFun: "Les sports de glisses",
+    img: "images/page_initial/thomas-pdg.png",
+    imgPro: "images/pro/thomas-pro.png",
+    imgFun: "images/fantasy/thomas-fantasy.png"
   }
 ];
 
@@ -202,6 +240,107 @@ let navbarText = document.querySelector(".navbar-text");
 //     let slideTo = $(e.relatedTarget).index();
 //     console.log(slideFrom+' => '+slideTo);
 // });
+
+const containerCard = document.getElementById("teamRowOne");
+const containerCarouselItem = document.getElementById("teamCarouselItems");
+
+// const random = Math.floow(Math.ceil() * 2);
+
+
+students.forEach(result => {
+  // Construct card content
+  const carouselCardsContent = `
+  <div class="card mr-4 mb-3 rotated-card-cw text-dark bg-primary" style="max-width: 350px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="${result.img}" class="card-img" alt="..." />
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">
+        ${result.name}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    `;
+
+    // Append newly created card element to the container
+  containerCard.innerHTML += carouselCardsContent;
+
+});
+
+students.forEach(result => {
+
+  const carouselItemContent = `
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-6">
+        <div
+          class="jumbotron pb-0 back-image-1 text-light ml-1">
+          <div class="row">
+            <div class="col-6">
+              <h1 class="display-4">${result.name}</h1>
+              <ul>
+                <li class="age1"></li>
+                <li class="presentation1"></li>
+                <li class="passion1"></li>
+              </ul>
+              <p class="lead">
+                SOFT SKILLS:
+              </p>
+              <ul>
+                <li class="skill1"></li>
+                <li class="skill2"></li>
+                <li class="skill3"></li>
+                <li class="skill4"></li>
+                <li class="skill5"></li>
+              </ul>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-end">
+              <div class="card mb-0 bg-transparent">
+                <img
+                  src="${result.imgPro}"
+                  class="card-img-top"
+                  alt="..."/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div
+          class="jumbotron pb-0 back-image-2 text-light rotated">
+          <div class="row">
+            <div class="col-6">
+              <h1 class="display-4">C'est moi aussi!</h1>
+              <ul>
+                
+                <li class="devise"></li>
+                <li class="passionFun"></li>
+              </ul>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-end">
+              <div class="card mb-0 bg-transparent">
+                <img
+                  src="${result.imgFun}"
+                  class="card-img-bottom"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    `;
+
+  containerCarouselItem.innerHTML += carouselItemContent;
+
+});
 
 $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
   // var id = ev.relatedTarget.id; // this one does not function
@@ -452,19 +591,19 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
           passionFun[16].textContent = "Passion fun : " + students[16].passionFun;
           break;
 
-    case 18:
-          age1[17].textContent = "Age : " + students[17].age;
-          passion1[17].textContent = "Passion : " + students[17].passion;
-          presentation1[17].textContent = "Presentation : " + students[17].presentation;
-          skill1[17].textContent = students[17].softSkills[0];
-          skill2[17].textContent = students[17].softSkills[1];
-          skill3[17].textContent = students[17].softSkills[2];
-          skill4[17].textContent = students[17].softSkills[3];
-          skill5[17].textContent = students[17].softSkills[4];
-          // surname[17].textContent = "Surname : " + students[17].surname;
-          devise[17].textContent = "Devise : " + students[17].devise;
-          passionFun[17].textContent = "Passion fun : " + students[17].passionFun;
-          break;
+    // case 18:
+    //       age1[17].textContent = "Age : " + students[17].age;
+    //       passion1[17].textContent = "Passion : " + students[17].passion;
+    //       presentation1[17].textContent = "Presentation : " + students[17].presentation;
+    //       skill1[17].textContent = students[17].softSkills[0];
+    //       skill2[17].textContent = students[17].softSkills[1];
+    //       skill3[17].textContent = students[17].softSkills[2];
+    //       skill4[17].textContent = students[17].softSkills[3];
+    //       skill5[17].textContent = students[17].softSkills[4];
+    //       // surname[17].textContent = "Surname : " + students[17].surname;
+    //       devise[17].textContent = "Devise : " + students[17].devise;
+    //       passionFun[17].textContent = "Passion fun : " + students[17].passionFun;
+    //       break;
 
     
     
