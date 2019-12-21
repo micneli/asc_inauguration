@@ -47,10 +47,13 @@ body {
     -o-transform: rotate(-4deg);
 }
 
+.horizontal {
+  overflow-x: hidden;
+  height: 100%;
+}
 
 
-
-.animborder{
+/* .animborder{
 
 
     background: #111845a6;
@@ -107,4 +110,4 @@ body {
     }
 
 
-  }
+  } */
