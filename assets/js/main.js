@@ -1,7 +1,6 @@
 let students = [
   {
     name: "Anthony Montmirail",
-    // surname: "Tony Montana (scarface)",
     age: 42,
     presentation: "Elle gère la fougère",
     passion: "Le domaine de la réparation m'a fait découvrir différents langages de programmation qui m’ont conduit à l’ACS. 'En mode Apprentissage'",
@@ -15,13 +14,12 @@ let students = [
 
   {
     name: "Béatrice Hatsch",
-    // surname: "Béa",
     age: 53,
     presentation: "Ne fait pas aux autres ce que tu n'aimerais pas qu’on te fasse",
-    passion: "L’une de mes passions l’univers de  la création . J’aimerai devenir développeur d’application",
+    passion: "J’aimerai devenir développeur d’application",
     softSkills: ["Le sens du collectif", "La présence", "La motivation", "La créativité", "NinLa confiancejutsu"],
-    devise: " ",
-    passionFun: " ",
+    devise: "Ne fait pas aux autres ce que tu n'aimerais pas qu’on te fasse",
+    passionFun: "L’une de mes passions l’univers de  la création ",
     img: "images/page_initial/beatrice-pdg.png",
     imgPro: "images/pro/beatrice-pro.png",
     imgFun: "images/fantasy/beatrice-fantasy.png"
@@ -29,10 +27,9 @@ let students = [
 
   {
     name: "Etienne Schmitt",
-    // surname: "Syrgo",
     age: 22,
-    presentation: "La programmation est simple mais il faut être un génie pour comprendre sa simplicité ",
-    passion: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon au quotidien, j’aime également le monde de la programmation informatique et développe des apps/webapps pour le jeu de rôles",
+    presentation: "Il faut être un génie pour comprendre la simplicité de la programmation",
+    passion: "Passionné par les jeux de cartes et de rôle je crée des parties de Donjon et Dragon",
     softSkills: ["Esprit critique", "Coopération", "Curiosité", "VIsion", "Présence "],
     devise: "Toujours conserver sa meilleure carte à porté de main",
     passionFun: "Jeux de rôles/cartes/vidéos et UNIX",
@@ -41,34 +38,31 @@ let students = [
     imgFun: "images/fantasy/etienne-fantasy.png"
   },
   {
-    name: "Ilias Imouli",
-    // surname: "Ili",
+    name: "Ilias Imoula",
     age: 22,
     presentation: "Go hard or go home",
-    passion: "Sport et voyage",
+    passion: "Reseaux informatique et programmation",
     softSkills: ["Autonome ", "Curieux ", "Créativite", "Sportif", "Organisé"],
-    devise: " ",
-    passionFun: " ",
+    devise: "Comme j'ai dit, Go hard or go home",
+    passionFun: "Sport et voyage",
     img: "images/page_initial/illias-pdg.png",
     imgPro: "images/pro/illias-pro.png",
     imgFun: "images/fantasy/illias-fantasy.png"
   },
   {
     name: "Irina Pintchuk",
-    // surname: "Irina",
     age: 40,
     presentation: "Les rêves donnent l’envie d’être à demain",
-    passion: "Passionné par les plantes dont je ne connais même pas les noms !",
+    passion: "Passionné pour le web developpment et numerique !",
     softSkills: ["Empathie", "L’esprit d’équipe", "Flexibilité ", "Curiosité", "capacité d'écoute"],
-    devise: " ",
-    passionFun: " ",
+    devise: "Les rêves donnent l’envie d’être à demain",
+    passionFun: "Passionné par les plantes dont je ne connais même pas les noms !",
     img: "images/page_initial/irina-pdg.png",
     imgPro: "images/pro/irina-pro.png",
     imgFun: "images/fantasy/irina-fantasy.png"
   },
   {
     name: "Isabelle Hennes",
-    // surname: "Isa ou Zabou",
     age: 32,
     presentation: "#warrior : Toujours se relever, toujours recommencer, Interdit d’abandonner!",
     passion: "Passionnée par les arts-martiaux, la mode, le makeup et les réseaux sociaux!",
@@ -81,8 +75,7 @@ let students = [
   },
   {
     name: "Jérôme Rinner",
-    // surname: "Le crieur",
-    age:37 ,
+    age:37,
     presentation: "La créativité est contagieuse, faites la tourner !",
     passion: "J'aime la simplicité, apprécier l'instant présent et m'émerveiller de la créativité de la vie, la nature",
     softSkills: ["Adaptabilité", "Esprit d'équipe", "Rigueur", "Passion", "Ecoute"],
@@ -94,7 +87,6 @@ let students = [
   },
   {
     name: "Joan Sor",
-    // surname: "Jojo",
     age: 34,
     presentation: "Tout métier qui ne fait pas oublier le travail est un esclavage",
     passion: "while (travaille === plaisir et passion){console.log(“just do it”)};",
@@ -107,7 +99,6 @@ let students = [
   },
   {
     name: "Johanna Galli",
-    // surname: "Djobi",
     age: 23,
     presentation: "Ce ne sont pas nos aptitudes qui montrent ce que nous sommes, ce sont nos choix",
     passion: "Les voyages, la musique, les montages vidéos, Harry Potter, les carnavals, et les amis",
@@ -119,37 +110,34 @@ let students = [
     imgFun: "images/fantasy/johanna-fantasy.png"
   },
   {
-    name: "Julie Moulot",
-    // surname: "Julie",
-    age: 23,
+    name: "Julie Mulot",
+    age: 38,
     presentation: "Nous vivons tous dans le ventre d’un chien géant, tout le monde le sait mais personne ne dit rien du tout",
     passion: "Fan de Tagada Jones et Ultra Vomit",
-    softSkills: ["Aime observer", "écouter et trouver des solutions"],
-    devise: " ",
-    passionFun: " ",
+    softSkills: ["Aime observer", "Prete a écouter", "J'aime trouver des solutions", "Capable a motiver", "Capable a organiser"],
+    devise: "Be a warrior, not a worrier",
+    passionFun: "Passionee pour cuisinier",
     img: "images/page_initial/julie-pdg.png",
     imgPro: "images/pro/julie-pro.png",
     imgFun: "images/fantasy/julie-fantasy.png"
   },
   {
     name: "Ludovic Marin",
-    // surname: "Ludo",
     age: 40,
     presentation: "OVH - Serveur Dédié - Ubuntu 18.04 - PHP 7.2 phpMyAdmin - jQuery - Js Vanilla - Css3 - Bootstrap - DNS - HTTPS - référencement",
-    passion: "J’aime la musique et tout ce qui sonne pop, soul et funky. Je suis également passionné du web auquel je contribu depuis 2005 à travers 2 plateformes que j’ai réalisé et que j’ai mis en ligne. L’une étant un média musical que j’ai depuis arrêté et l’autre une niche centrée autour du partage et de la vente d’instrumentales",
+    passion: " Je suis passionné du web auquel je contribu depuis 2005 à travers 2 plateformes en ligne. L’une étant un média musical que j’ai depuis arrêté et l’autre une niche centrée autour du partage et de la vente d’instrumentales",
     softSkills: ["Curieux", "Astucieux", "Débrouillard", "Ponctuel", "Créatif"],
-    devise: " ",
-    passionFun: " ",
+    devise: "N'abandonne jamais",
+    passionFun: "J’aime la musique et tout ce qui sonne pop, soul et funky.",
     img: "images/page_initial/ludo-pdg.png",
     imgPro: "images/pro/ludo-pro.png",
     imgFun: "images/fantasy/ludo-fantasy.png"
   },
   {
     name: "Maëra David",
-    // surname: "Yaya ",
     age: 21,
     presentation: "Parmi les faibles, le plus fort est celui qui n’oublie pas sa faiblesse",
-    passion: "Passionnée par la culture Japonaise, je suis également une grande amatrice de lecture en tout genre. J’aime beaucoup jouer aux jeux vidéos et dessiner. Niveau pro, je souhaiterai développer mes compétences afin de pouvoir travailler dans une entreprise ou une agence en tant que développeur web, et gagner en expérience pour grimper les échelons",
+    passion: "Niveau pro, je souhaiterai développer mes compétences afin de pouvoir travailler dans une entreprise ou une agence en tant que développeur web, et gagner en expérience pour grimper les échelons",
     softSkills: ["Empathie", "Créativité", "Motivation", "Communication", "Confiance"],
     devise: "Konnichiwa minna-san !",
     passionFun: "Les jeux vidéos, la culture japonaise, les bouquins, le dessin et le chant !",
@@ -159,12 +147,11 @@ let students = [
   },
   {
     name: "Messaouda Benchikh",
-    // surname: "Messa le géant dormant",
     age: 37,
-    presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser. Nous sommes présents pour trouver des solutions et pour vous faciliter la vie",
-    passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères, soin des animaux, la nature ",
+    presentation: "Nous avons tous des idées positives, c’est avec de l’énergie et de la créativité que nous pouvons les réaliser.",
+    passion: "Informatique et mathématique, histoire, nouvelles technologies, voyage et langues étrangères, soin des animaux, la nature",
     softSkills: ["L’innovation", "Travail en groupe", "Communication", "Motivation", "Productivité"],
-    devise: "La souffrance génère la créativité, courage toi même,  soit tu gagnes. Sois-tu apprends",
+    devise: "La souffrance génère la créativité, courage toi même, soit tu gagnes. Sois-tu apprends",
     passionFun: "Parler aux chats, j'aime beaucoup le panda, j'adore les aventures de Tintin",
     img: "images/page_initial/messaouda-pdg.png",
     imgPro: "images/pro/messaouda-pro.png",
@@ -172,8 +159,7 @@ let students = [
   },
   {
     name: "Nebojsa Mihaljevic",
-    // surname: "Nebo",
-    age: 48,
+    age: 49,
     presentation: "Work hard and have fun!!",
     passion: "Sports, voyage, passer le temps avec la famille et les amis",
     softSkills: ["Travailleur", "Précis", "Fiable", "Sérieux", "Raisonnable"],
@@ -185,7 +171,6 @@ let students = [
   },
   {
     name: "Victor Lapostolle",
-    // surname: "Raptaman",
     age: 25,
     presentation: "L’ignorant affirme, le savant doute, le sage réfléchit",
     passion: "Le web et les BD",
@@ -198,7 +183,6 @@ let students = [
   },
   {
     name: "Thomas Loegell",
-    // surname: "Jamy",
     age: 33,
     presentation: "Les rêves donnent l’envie d’être à demain",
     passion: "Passionné par les plantes dont je ne connais même pas les noms !",
@@ -216,7 +200,6 @@ let age1 = document.getElementsByClassName("age1");
 let passion1 = document.getElementsByClassName("passion1");
 let presentation1 = document.getElementsByClassName("presentation1");
 
-// let surname = document.getElementsByClassName("surname");
 let devise = document.getElementsByClassName("devise");
 let passionFun = document.getElementsByClassName("passionFun");
 
@@ -259,7 +242,7 @@ let card = card_bg[Math.floor(Math.random() * card_bg.length)];
 students.forEach(result => {
   // Construct card content
   const carouselCardsContent = `
-  <div class="card mr-4 mb-3 text-dark bg-` + card + `" style="max-width: 350px; min-width: 350px;">
+  <div class="card mr-3 mb-3 text-dark bg-` + card + `" style="max-width: 350px; min-width: 350px;">
   <div class="row no-gutters">
     <div class="col-md-4">
       <img src="${result.img}" class="card-img" alt="..." />
@@ -276,25 +259,21 @@ students.forEach(result => {
 </div>
     `;
     containerCard.innerHTML += carouselCardsContent;
-
 })
 
 students.forEach(result => {
   // Construct card content
 const carouselCardsDownContent = `
-<div class="card mr-4 bg-` + card + `" style="width: 80px;">
+<div class="card ml-2 mr-2 bg-` + card + `" style="width: 83px;">
   <img class="card-img-top" src="${result.img}" alt="Card image cap">
 </div>
     `;
 
-    // Append newly created card element to the container
-  
+  // Append newly created card element to the container
   horizontal.innerHTML += carouselCardsDownContent;
-
 });
 
 students.forEach(result => {
-
   const carouselItemContent = `
   <div class="carousel-item">
     <div class="row">
@@ -357,9 +336,7 @@ students.forEach(result => {
     </div>
   </div>
     `;
-
   containerCarouselItem.innerHTML += carouselItemContent;
-
 });
 
 $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
@@ -383,7 +360,6 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
         skill3[id - 1].textContent = students[id - 1].softSkills[2];
         skill4[id - 1].textContent = students[id - 1].softSkills[3];
         skill5[id - 1].textContent = students[id - 1].softSkills[4];
-        // surname[id - 1].textContent = "Surname : " + students[id - 1].surname;
         devise[id - 1].textContent = "Devise : " + students[id - 1].devise;
         passionFun[id - 1].textContent = "Passion fun : " + students[id - 1].passionFun;
         break;

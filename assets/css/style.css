@@ -48,8 +48,8 @@ body {
 }
 
 .horizontal {
-  overflow-x: hidden;
-  height: 100%;
+  position: fixed;
+  bottom: 10px;
 }
 
 
