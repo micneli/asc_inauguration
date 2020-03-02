@@ -245,11 +245,21 @@ const containerCard = document.getElementById("teamRowOne");
 const horizontal = document.querySelector(".horizontal");
 const containerCarouselItem = document.getElementById("teamCarouselItems");
 
+let card_bg = [
+  "primary",
+  "secondary",
+  "success",
+  "danger",
+  "warning",
+  "info"
+]
+
+let card = card_bg[Math.floor(Math.random() * card_bg.length)];
 
 students.forEach(result => {
   // Construct card content
   const carouselCardsContent = `
-  <div class="card mr-4 mb-3 rotated-card-cw text-dark bg-primary" style="max-width: 350px; min-width: 350px;">
+  <div class="card mr-4 mb-3 text-dark bg-` + card + `" style="max-width: 350px; min-width: 350px;">
   <div class="row no-gutters">
     <div class="col-md-4">
       <img src="${result.img}" class="card-img" alt="..." />
@@ -265,10 +275,21 @@ students.forEach(result => {
   </div>
 </div>
     `;
+    containerCard.innerHTML += carouselCardsContent;
+
+})
+
+students.forEach(result => {
+  // Construct card content
+const carouselCardsDownContent = `
+<div class="card mr-4 bg-` + card + `" style="width: 80px;">
+  <img class="card-img-top" src="${result.img}" alt="Card image cap">
+</div>
+    `;
 
     // Append newly created card element to the container
-  containerCard.innerHTML += carouselCardsContent;
-  horizontal.innerHTML += carouselCardsContent;
+  
+  horizontal.innerHTML += carouselCardsDownContent;
 
 });
 
@@ -348,20 +369,23 @@ $('#myCarousel').on('slide.bs.carousel', function onSlide(ev) {
 
   switch (id) {
 
+      case 0:
+        break;
+
       case id:
         // navbarText.innerHTML = "<h2><span style='color:red; font-weight: bold;'>ANTHONY</span></h2>";
         // name1[0].textContent = "Nom et prenom : " + students[0].name;
-        age1[id].textContent = "Age : " + students[id].age;
-        passion1[id].textContent = "Passion : " + students[id].passion;
-        presentation1[id].textContent = "Presentation : " + students[id].presentation;
-        skill1[id].textContent = students[id].softSkills[0];
-        skill2[id].textContent = students[id].softSkills[1];
-        skill3[id].textContent = students[id].softSkills[2];
-        skill4[id].textContent = students[id].softSkills[3];
-        skill5[id].textContent = students[id].softSkills[4];
-        // surname[id].textContent = "Surname : " + students[id].surname;
-        devise[id].textContent = "Devise : " + students[id].devise;
-        passionFun[id].textContent = "Passion fun : " + students[id].passionFun;
+        age1[id - 1].textContent = "Age : " + students[id - 1].age;
+        passion1[id - 1].textContent = "Passion : " + students[id - 1].passion;
+        presentation1[id - 1].textContent = "Presentation : " + students[id - 1].presentation;
+        skill1[id - 1].textContent = students[id - 1].softSkills[0];
+        skill2[id - 1].textContent = students[id - 1].softSkills[1];
+        skill3[id - 1].textContent = students[id - 1].softSkills[2];
+        skill4[id - 1].textContent = students[id - 1].softSkills[3];
+        skill5[id - 1].textContent = students[id - 1].softSkills[4];
+        // surname[id - 1].textContent = "Surname : " + students[id - 1].surname;
+        devise[id - 1].textContent = "Devise : " + students[id - 1].devise;
+        passionFun[id - 1].textContent = "Passion fun : " + students[id - 1].passionFun;
         break;
   }
 
